@@ -1,0 +1,12 @@
+$primaryBtn: #e055cc;
+$textColor: #4e4e4e;
+$introText: #0cb9e4;
+$secondaryColor: #f76060;
+@mixin flexCenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background: $background;
+}
