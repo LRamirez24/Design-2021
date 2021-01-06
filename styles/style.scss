@@ -31,7 +31,7 @@ img {
 }
 
 h1 {
-    font-size: 6.2rem;
+    font-size: 6.4rem;
     letter-spacing: 0.1rem;
 }
 
@@ -56,7 +56,7 @@ p {
 
 .intro-text2 h1 {
     color: white;
-    font-size: 7rem;
+    font-size: 6.4rem;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
@@ -127,6 +127,7 @@ p {
         font-size: 1.6rem;
     }
     .btn-contact {
+        background-color: white;
         padding: 10px 14px;
         text-align: center;
         text-decoration: none;
@@ -134,10 +135,10 @@ p {
         cursor: pointer;
         font-size: 1.6rem;
         font-family: 'Quicksand', sans-serif;
-        border: 1px solid $secondaryColor;
+        border: 1px solid black;
         transition-duration: 0.4s;
         &:hover {
-            background-color: $secondaryColor;
+            background-color: black;
             color: white;
         }
     }
@@ -246,7 +247,7 @@ nav li a:hover {
     line-height: 2rem;
     margin-bottom: 4rem;
     .p-text {
-        font-size: 3rem;
+        font-size: 3.2rem;
         font-weight: 200;
     }
 }
@@ -595,6 +596,12 @@ footer ul {
     }
     .doodles3 {
         display: none;
+    }
+    .intro-text2 h1 {
+        color: white;
+        font-size: 5.6rem;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
     }
     .hero {
         display: flex;
