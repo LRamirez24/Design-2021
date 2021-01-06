@@ -59,6 +59,7 @@ p {
     font-size: 6.4rem;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 1rem;
 }
 
 .slider {
@@ -213,6 +214,13 @@ nav li a:hover {
     padding-bottom: 2rem;
     margin-left: 1rem;
     overflow-x: hidden;
+}
+
+.luis-info {
+    .title {
+        margin-bottom: 2rem;
+        font-size: 5.6rem;
+    }
 }
 
 .scroll {
@@ -428,10 +436,13 @@ footer ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 8rem;
-        margin-bottom: 11rem;
+        margin-bottom: 9rem;
         .luis-info {
             grid: 1;
             justify-self: end;
+            .title {
+                margin-bottom: 2rem;
+            }
             .name {
                 color: $secondaryColor;
             }
