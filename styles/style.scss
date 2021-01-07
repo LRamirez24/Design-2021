@@ -209,7 +209,7 @@ nav li a:hover {
 
 .me {
     border-radius: 50%;
-    width: 90%;
+    width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-left: 1rem;
@@ -255,7 +255,7 @@ nav li a:hover {
     line-height: 2rem;
     margin-bottom: 4rem;
     .p-text {
-        font-size: 3.2rem;
+        font-size: 2.4rem;
         font-weight: 200;
     }
 }
@@ -625,5 +625,16 @@ footer ul {
         .scroll {
             margin-left: 0;
         }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .doodles {
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+        top: 24%;
+        right: 0%;
+        bottom: 0;
     }
 }
