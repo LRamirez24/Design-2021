@@ -771,6 +771,10 @@ footer ul {
 }
 
 /*About Styles  */
+.active {
+  color: #f76060;
+}
+
 .about-container {
   display: -webkit-box;
   display: -ms-flexbox;

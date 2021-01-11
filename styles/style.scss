@@ -642,6 +642,10 @@ footer ul {
 
 /*About Styles  */
 
+.active {
+    color: $secondaryColor;
+}
+
 .about-container {
     display: flex;
     flex-direction: column;
