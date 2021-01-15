@@ -511,7 +511,7 @@ footer ul {
         border-radius: 40px;
     }
     nav ul a {
-        color: black;
+        color: rgba(7, 7, 7, 0.753);
     }
     .blue-outline:hover {
         background-color: $secondaryColor;
@@ -643,7 +643,8 @@ footer ul {
 /*About Styles  */
 
 .active {
-    color: $secondaryColor;
+    color: black;
+    font-weight: bold;
 }
 
 .about-container {
