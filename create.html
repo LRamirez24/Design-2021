@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luis Ramirez Front-End Developer and UX/UI Designer. 
+Lets build something amazing together.">
+    <link rel="icon" href="/images/Miroodles - Sticker (6).png" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Luis Portfolio Create Post</title>
+</head>
+
+<body>
+    <header class="main-head">
+        <nav>
+            <div class="logo">
+                <a href="index.html" class="logo-name">Luis Ramirez</a>
+            </div>
+            <ul>
+                <li><a href="/index.html">My Work</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a class="active" href="/about.html">Create</a></li>
+                <li><a href="https://www.upwork.com/freelancers/~018d66adede5e471f7"><button class="btn-contact">Hire Me</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="about-container">
+        <div class="about-title">
+            <h1 class="stagger1">Create Blog Posts.</h1>
+        </div>
+        <div class="about-me">
+            <form id="blog-form">
+                <label for="Author">Author:</label><br>
+                <input type="text" id="author" name="author" placeholder="Author"><br>
+                <label for="Post Title">Post Title:</label><br>
+                <input type="text" id="postTitle" name="postTitle" placeholder="Post Title"><br><br>
+                <label for="Post Content">Post Content:</label><br>
+                <textarea id="postContent" name="postContent" cols="30" rows="10" class="form-text-area" placeholder="Be Nice Everyone!"></textarea><br>
+                <label for="Date">Date:</label><br>
+                <input type="date" id="postDate" name="postDate" class="post-date"><br>
+                <button class="btn-posts">Create Post</button>
+            </form>
+        </div>
+
+
+        <!-- 
+ <div class="my-picture2">
+            <form>
+                <label for="Post Content">Post Content:</label><br>
+                <textarea id="postContent" cols="30" rows="10" class="form-text-area" placeholder="Be Nice Everyone!"></textarea><br>
+
+            </form>
+        </div>
+        <div>
+            <form>
+                <label for="Date">Date:</label><br>
+                <input type="date" id="postDate" class="post-date"><br>
+                <input type="submit" value="Post" class="btn-posts" id="submitBtn">
+            </form>
+        </div>
+    
+  -->
+
+
+
+
+
+
+        <!-- 
+
+
+        <div class="my-values" id="posts-collection">
+
+        </div>
+
+  -->
+
+
+
+
+
+
+        <h3 class="connect">Let's Connect</h3>
+        <p class="connect1">Get in touch for opportunities or just to say hi! 👋</p>
+        <footer>
+            <ul class="social-footer">
+                <li class="social-icons1">
+                    <a href="https://www.behance.net/luisramirez60"><img src="/images/iconmonstr-behance-1 (1) 1.svg" alt="behance-social" width="30" height="30" /></a>
+                </li>
+                <li class="social-icons1">
+                    <a href="https://dribbble.com/apex2025"><img src="/images/iconmonstr-dribbble-1 (1) 1.svg" alt="dribble-social" width="30" height="30" /></a>
+                </li>
+                <li class="social-icons1">
+                    <a href="https://github.com/LRamirez24"><img src="/images/iconmonstr-github-1 1.svg" alt="github-social" width="30" height="30" /></a>
+                </li>
+                <li class="social-icons2">
+                    <a href="https://www.linkedin.com/in/luisramirez2050/"><img src="/images/iconmonstr-linkedin-1 1.svg" alt="linkedin-social" width="30" height="30" /></a>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+                apiKey: "AIzaSyC1Ai8ItWxjK25eaxVrXxvDVUdiykPISY4",
+                authDomain: "luis-blog-7a638.firebaseapp.com",
+                projectId: "luis-blog-7a638",
+                storageBucket: "luis-blog-7a638.appspot.com",
+                messagingSenderId: "26899044170",
+                appId: "1:26899044170:web:0b1f78062c5bbacafd53b3",
+                measurementId: "G-PE8ZFPV3C6"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore();
+            firebase.analytics();
+            db.settings({
+                timestampsInSnapshots: true
+            });
+        </script>
+
+        <script src="/app2.js"></script>
+
+
+
+</body>
+
+</html>

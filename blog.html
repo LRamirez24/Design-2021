@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luis Ramirez Front-End Developer and UX/UI Designer. 
+Lets build something amazing together.">
+    <link rel="icon" href="/images/Miroodles - Sticker (6).png" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Luis Portfolio Blog</title>
+</head>
+
+<body>
+    <header class="main-head">
+        <nav>
+            <div class="logo">
+                <a href="index.html" class="logo-name">Luis Ramirez</a>
+            </div>
+            <ul>
+                <li><a href="/index.html">My Work</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a class="active" href="/about.html">Blog</a></li>
+                <li><a href="https://www.upwork.com/freelancers/~018d66adede5e471f7"><button class="btn-contact">Hire Me</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="about-container">
+        <div class="about-title">
+            <h1 class="stagger1">A Blog about Techonolgy and Games.</h1>
+        </div>
+
+        <!-- info for blog intro
+      <div class="about-me">
+            <p>
+                My name is Luis Ramirez; I'm passionate about social justice, fighting for equality, and<br> changing the narrative society places on people of color through my designs. I strive<br> to learn new things every day and love meeting people
+                who are the same. I also love<br> to play video games and enjoy sharing my ideas with the world.
+            </p>
+            <p>
+                I'm a self-taught web developer/designer. I learned the processes, concepts, and<br> theories of UX/UI and web development through attending workshops, online classes,<br> reading blogs and applying these to projects in my spare time.
+                I am very much a<br> big-picture thinker and enjoy working on projects from ideation to development.
+            </p>
+        </div>
+         -->
+        <div class="my-picture2">
+            <img class="me-about" src="/images/Saly-16.svg" alt="blog-image" width="700" height="700">
+        </div>
+
+
+
+
+
+
+
+        <div class="post-style">
+            <div class="my-values" id="posts-collection">
+
+            </div>
+        </div>
+        <!-- Button to create posts
+            <div>
+            <a href="/create.html"><button class="btn-posts">Create Post</button></a>
+        </div>  
+        -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <h3 class="connect">Let's Connect</h3>
+    <p class="connect1">Get in touch for opportunities or just to say hi! 👋</p>
+    <footer>
+        <ul class="social-footer">
+            <li class="social-icons1">
+                <a href="https://www.behance.net/luisramirez60"><img src="/images/iconmonstr-behance-1 (1) 1.svg" alt="behance-social" width="30" height="30" /></a>
+            </li>
+            <li class="social-icons1">
+                <a href="https://dribbble.com/apex2025"><img src="/images/iconmonstr-dribbble-1 (1) 1.svg" alt="dribble-social" width="30" height="30" /></a>
+            </li>
+            <li class="social-icons1">
+                <a href="https://github.com/LRamirez24"><img src="/images/iconmonstr-github-1 1.svg" alt="github-social" width="30" height="30" /></a>
+            </li>
+            <li class="social-icons2">
+                <a href="https://www.linkedin.com/in/luisramirez2050/"><img src="/images/iconmonstr-linkedin-1 1.svg" alt="linkedin-social" width="30" height="30" /></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyC1Ai8ItWxjK25eaxVrXxvDVUdiykPISY4",
+            authDomain: "luis-blog-7a638.firebaseapp.com",
+            projectId: "luis-blog-7a638",
+            storageBucket: "luis-blog-7a638.appspot.com",
+            messagingSenderId: "26899044170",
+            appId: "1:26899044170:web:0b1f78062c5bbacafd53b3",
+            measurementId: "G-PE8ZFPV3C6"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        firebase.analytics();
+        db.settings({
+            timestampsInSnapshots: true
+        });
+    </script>
+    <script src="/app2.js"></script>
+
+
+
+
+
+</body>
+
+</html>
