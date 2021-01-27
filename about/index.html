@@ -5,35 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Luis Ramirez Front-End Developer and UX/UI Designer. 
-Lets build something amazing together.">
-    <link rel="icon" href="/images/Miroodles - Sticker (6).png" />
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>Luis Portfolio Blog</title>
+    Lets build something amazing together.About Page">
+    <link rel="icon" href="/images/heart-crown.png" />
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>About Me</title>
 </head>
 
 <body>
     <header class="main-head">
         <nav>
             <div class="logo">
-                <a href="index.html" class="logo-name">Luis Ramirez</a>
+                <a href="../index.html" class="logo-name">Luis Ramirez</a>
             </div>
             <ul>
-                <li><a href="/index.html">My Work</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a class="active" href="/about.html">Blog</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html">My Work</a></li>
+                <li><a class="active" href="./index.html">About</a></li>
+                <li><a href="../blog/">Blog</a></li>
                 <li><a href="https://www.upwork.com/freelancers/~018d66adede5e471f7" target=”_blank” rel=”noopener noreferrer”><button class="btn-contact">Hire Me</button></a></li>
             </ul>
         </nav>
     </header>
 
-
     <div class="about-container">
         <div class="about-title">
-            <h1 class="stagger1">A Blog about Techonolgy and Games.</h1>
+            <h1 class="stagger1">A little about myself.</h1>
         </div>
-
-        <!-- info for blog intro
-      <div class="about-me">
+        <div class="about-me">
             <p>
                 My name is Luis Ramirez; I'm passionate about social justice, fighting for equality, and<br> changing the narrative society places on people of color through my designs. I strive<br> to learn new things every day and love meeting people
                 who are the same. I also love<br> to play video games and enjoy sharing my ideas with the world.
@@ -43,37 +41,46 @@ Lets build something amazing together.">
                 I am very much a<br> big-picture thinker and enjoy working on projects from ideation to development.
             </p>
         </div>
-         -->
         <div class="my-picture2">
-            <img class="me-about" src="/images/Saly-16.svg" alt="blog-image" width="700" height="700">
+            <img class="me-about" src="/images/me-bar-rounded.png" alt="luis-pic" width="450" height="600">
         </div>
 
 
 
+        <div class="my-values">
+            <h2>My Values</h2>
+            <h3> 🎓 Always be Learning.</h3>
+            <p>
+                You only get so little time on earth; why not enjoy learning something<br> new. I am always looking for new ways to improve my designs and<br> grow as a person. In my spare time, I like to take online classes, read<br> blogs, start new
+                projects and attend meetups.
+            </p>
+            <h3> 🙏 Meditation is Key.</h3>
+            <p>
+                Life can be so hectic sometimes that you need to remember to<br> take time for yourself. Love yourself and unwind from a long day<br> with some breathing exercises. I try my best to meditate at least<br> every other day to stay grounded.
+            </p>
+            <h3> ✊ Help Stop Injustice. </h3>
+            <p>
+                I believe that we should all strive to make the world a better place.<br> If you see injustice speak up. Help everyone speak their truth.
+            </p>
+            <h3> 🍩 Enjoy the Little Things.</h3>
+            <p class="last-value">
+                Life can be best when you stop to enjoy the moment.<br> Enjoy what you have and the people around you at<br> all times. You don't know when you'll see them<br> again.
+            </p>
+            <h2 class="skills-title">My Skills</h2>
+        </div>
 
-
-
-
-        <div class="post-style">
-            <div class="my-values" id="posts-collection">
-
+        <div class="skills-container">
+            <div class="skill-pic1">
+                <img class="skills-pic" src="/images/ui.svg" alt="luis-pic" width="500" height="400">
+            </div>
+            <div class="skill-pic2">
+                <img class="skills-pic" src="/images/frontend (6).svg" alt="luis-pic" width="500" height="400">
+            </div>
+            <div class="skill-pic3">
+                <img class="skills-pic" src="/images/backend-fixed.svg" alt="luis-pic" width="500" height="400">
             </div>
         </div>
-
-        <div>
-            <a href="/create.html"><button class="btn-posts">Create Post</button></a>
-        </div>
-
     </div>
-
-
-
-
-
-
-
-
-
 
 
     <h3 class="connect">Let's Connect</h3>
@@ -95,35 +102,8 @@ Lets build something amazing together.">
         </ul>
     </footer>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-firestore.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
 
-    <script>
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        var firebaseConfig = {
-            apiKey: "AIzaSyC1Ai8ItWxjK25eaxVrXxvDVUdiykPISY4",
-            authDomain: "luis-blog-7a638.firebaseapp.com",
-            projectId: "luis-blog-7a638",
-            storageBucket: "luis-blog-7a638.appspot.com",
-            messagingSenderId: "26899044170",
-            appId: "1:26899044170:web:0b1f78062c5bbacafd53b3",
-            measurementId: "G-PE8ZFPV3C6"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        const db = firebase.firestore();
-        firebase.analytics();
-        db.settings({
-            timestampsInSnapshots: true
-        });
-    </script>
-    <script src="/app2.js"></script>
 
 
 
