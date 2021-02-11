@@ -46,11 +46,11 @@ db.collection('posts').orderBy('createdAt', 'desc', "postName").get().then((snap
 //db.collection('posts').add({
 //  author: form.author.value,
 //postName: form.postTitle.value,
-//postContent: form.postContent.value,
-//createdAt: form.postDate.value
+// postContent: form.postContent.value,
+// createdAt: form.postDate.value
+// });
+//  form.author.value = '';
+//  form.postTitle.value = '';
+//  form.postContent.value = '';
+//  form.postDate.value = '';
 //});
-//form.author.value = '';
-//form.postTitle.value = '';
-//form.postContent.value = '';
-//form.postDate.value = '';
-//})

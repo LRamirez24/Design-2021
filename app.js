@@ -71,6 +71,19 @@ gsap.from(".transition5", {
     }
 })
 
+gsap.from(".transition6", {
+    x: 0,
+    y: 100,
+    opacity: 0,
+    stagger: 0.8,
+    rotation: -100,
+    scrollTrigger: {
+        trigger: ".transition6",
+        start: "top center",
+        end: "top 100px",
+    }
+})
+
 //gsap.to(".boxes", 1, {
 //  scale: 0.1,
 //y: 500,
