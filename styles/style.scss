@@ -302,6 +302,7 @@ nav li a:hover {
     justify-content: center;
     line-height: 2rem;
     margin-bottom: 4rem;
+    margin-top: 10rem;
     .p-text {
         font-size: 2.4rem;
         font-weight: 200;
@@ -325,8 +326,8 @@ nav li a:hover {
 
 .elena img:hover {
     transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
-    border-radius: 40px;
+    // box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+    // border-radius: 40px;
 }
 
 
@@ -555,8 +556,8 @@ footer ul {
     }
     .elena img:hover {
         transform: scale(0.9, 0.9);
-        box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
-        border-radius: 40px;
+        // box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+        // border-radius: 40px;
     }
     nav ul a {
         color: rgba(7, 7, 7, 0.753);
@@ -633,6 +634,9 @@ footer ul {
     }
     .doodles3 {
         display: none;
+    }
+    .projects-title {
+        margin-top: 0rem;
     }
 }
 
@@ -776,7 +780,7 @@ footer ul {
     border: solid black 0.5px;
     &:hover {
         transform: scale(1.2, 1.2);
-        box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+        // box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
     }
 }
 

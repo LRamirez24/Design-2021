@@ -10,6 +10,9 @@ tl.fromTo('nav', { opacity: 0 }, { opacity: 1, duration: 1 });
 
 tl.fromTo('.stagger1', { opacity: 0 }, { opacity: 1, stagger: .3, duration: 1 }, "-=1.4");
 tl.fromTo('.me', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1.4");
+tl.fromTo('.doodles', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1.4");
+tl.fromTo('.doodles3', { opacity: 0 }, { opacity: 1, duration: 2 }, "-=1.4");
+tl.fromTo('.doodles2', { opacity: 0 }, { opacity: 1, duration: 2 }, "-=1.4");
 
 tl.fromTo('.p-text', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1.4");
 
