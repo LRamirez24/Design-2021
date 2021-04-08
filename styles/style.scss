@@ -330,6 +330,30 @@ nav li a:hover {
     // border-radius: 40px;
 }
 
+.view-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-bottom: 18rem;
+    // text-decoration: underline;
+    .all-work {
+        font-size: 1.6rem;
+    }
+}
+
+.all-work:hover {
+    // text-transform: uppercase;
+    // color: #0cb9e4;
+    text-decoration: underline 1px black;
+}
+
+.arrow {
+    max-width: 2rem;
+    max-height: 2rem;
+    margin-left: 0.5rem;
+    margin-bottom: -0.5rem;
+}
+
 
 /* Footer section  */
 
@@ -638,6 +662,10 @@ footer ul {
     .projects-title {
         margin-top: 0rem;
     }
+    .doodles {
+        // display: none;
+        top: 12%;
+    }
 }
 
 @media only screen and (max-width: 620px) {
@@ -660,6 +688,10 @@ footer ul {
     .doodles3 {
         display: none;
     }
+    .doodles {
+        // display: none;
+        top: 23%;
+    }
     .intro-text2 h1 {
         color: white;
         font-size: 5.6rem;
@@ -677,6 +709,16 @@ footer ul {
         .scroll {
             margin-left: 0;
         }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .doodles {
+        // display: none;
+        top: 23%;
+    }
+    .me {
+        margin-left: 0rem;
     }
 }
 
