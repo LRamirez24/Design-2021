@@ -690,7 +690,7 @@ footer ul {
     }
     .doodles {
         // display: none;
-        top: 23%;
+        top: 19%;
     }
     .intro-text2 h1 {
         color: white;
@@ -714,8 +714,8 @@ footer ul {
 
 @media only screen and (max-width: 375px) {
     .doodles {
-        // display: none;
-        top: 22%;
+        display: none;
+        // top: 22%;
     }
     .me {
         margin-left: 0rem;
