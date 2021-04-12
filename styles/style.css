@@ -217,6 +217,10 @@ nav li a:hover {
   color: #f76060;
 }
 
+.hero .luis-info .luis-bio {
+  line-height: 1.5;
+}
+
 .dropdown {
   float: left;
   overflow: hidden;
