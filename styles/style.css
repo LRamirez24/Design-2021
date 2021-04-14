@@ -14,6 +14,8 @@ html {
 body {
   height: 100vh;
   font-family: 'Quicksand', sans-serif;
+  background-color: #F5F5F5;
+  color: #000;
 }
 
 ul {
@@ -22,7 +24,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 
 img {
@@ -37,6 +39,7 @@ h1 {
 
 p {
   font-size: 3.2rem;
+  line-height: 1.5;
 }
 
 textarea {
@@ -173,7 +176,7 @@ textarea {
 }
 
 .main-head .btn-contact {
-  background-color: white;
+  background-color: transparent;
   padding: 10px 14px;
   text-align: center;
   text-decoration: none;
@@ -188,7 +191,7 @@ textarea {
 
 .main-head .btn-contact:hover {
   background-color: black;
-  color: white;
+  color: #F5F5F5;
 }
 
 nav li a:hover {
@@ -235,7 +238,7 @@ nav li a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #F5F5F5;
   min-width: 16rem;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -609,7 +612,7 @@ footer ul {
   }
   .main-head .btn-contact:hover {
     background-color: black;
-    color: white;
+    color: #F5F5F5;
   }
   .hero {
     display: -ms-grid;
@@ -709,19 +712,19 @@ footer ul {
   }
   .blue-outline:hover {
     background-color: #f76060;
-    color: aliceblue;
+    color: #F5F5F5;
   }
   .purple-outline:hover {
     background-color: black;
-    color: aliceblue;
+    color: #F5F5F5;
   }
   .saiyan:hover {
     background-color: black;
-    color: aliceblue;
+    color: #F5F5F5;
   }
   .pink:hover {
     background-color: #f76060;
-    color: aliceblue;
+    color: #F5F5F5;
   }
   .logo-name:hover {
     text-transform: uppercase;
@@ -839,6 +842,9 @@ footer ul {
   }
   .hero .luis-info {
     text-align: center;
+  }
+  .hero .luis-bio {
+    font-size: 3rem;
   }
   .hero .scroll {
     margin-left: 0;
@@ -993,7 +999,7 @@ footer ul {
 }
 
 .btn-posts {
-  background-color: white;
+  background-color: transparent;
   padding: 10px 14px;
   text-align: center;
   text-decoration: none;
@@ -1008,12 +1014,18 @@ footer ul {
 
 .btn-posts:hover {
   background-color: black;
-  color: white;
+  color: #F5F5F5;
 }
 
 .post-style {
   margin-bottom: 4rem;
   padding-left: 2rem;
+  line-height: 2.4;
+}
+
+.post-style p {
+  font-size: 2rem;
+  max-width: 46em;
 }
 
 .adidas-design {
@@ -1069,6 +1081,6 @@ footer ul {
 
 #myBtn:hover {
   background-color: black;
-  color: white;
+  color: #F5F5F5;
 }
 /*# sourceMappingURL=style.css.map */
