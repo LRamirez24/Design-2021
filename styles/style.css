@@ -619,8 +619,9 @@ footer ul {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    margin-top: 8rem;
-    margin-bottom: 9rem;
+    margin-top: 14rem;
+    margin-bottom: 10rem;
+    min-height: 60vh;
   }
   .hero .luis-info {
     grid: 1;
