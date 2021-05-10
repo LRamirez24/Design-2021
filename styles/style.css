@@ -619,7 +619,7 @@ footer ul {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    margin-top: 14rem;
+    margin-top: 12rem;
     margin-bottom: 10rem;
     min-height: 60vh;
   }
