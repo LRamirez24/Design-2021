@@ -342,7 +342,8 @@ nav li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    // margin-bottom: 18rem;
+    margin-top: 8rem;
+    margin-bottom: 14rem;
     // text-decoration: underline;
     .all-work {
         font-size: 1.6rem;
@@ -810,6 +811,7 @@ footer ul {
     max-height: 620px;
 }
 
+
 .my-skills h2 {
     font-size: 3.2rem;
 }
@@ -937,3 +939,162 @@ footer ul {
         color: #F5F5F5;
     }
 }
+
+// More Work Page
+
+.work-image {
+    width: 100%;
+    height: auto;
+    padding-top: 0rem;
+    margin-bottom: 10rem;
+    // width: 900px;
+    // height: 600px;
+    max-width: 900px;
+    max-height: 900px;
+}
+
+.work-image:hover {
+    // transform: scale(0.95, 0.95);
+    // box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+    // border-radius: 40px;
+    transform: skewY(7deg) scale(0.95, 0.95);
+    /* Firefox 16+, IE 10+, Opera */
+    // -ms-transform: skewY(10deg);
+    // /* IE 9 */
+    // transform: skewY(10deg);
+}
+
+
+.my-picture2{
+    position: relative;
+}
+
+.my-picture3{
+    position: relative;
+}
+.my-picture4{
+    position: relative;
+}
+.my-picture5{
+    position: relative;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+
+.my-picture3:hover .overlay1 {
+    opacity: 1;
+}
+
+.my-picture2:hover .overlay {
+    opacity: 1;
+}
+
+.my-picture4:hover .overlay2 {
+    opacity: 1;
+}
+
+.my-picture5:hover .overlay3 {
+    opacity: 1;
+}
+
+
+
+
+
+/* The overlay effect - lays on top of the container and over the image */
+
+
+
+.overlay1 {
+    position: absolute;
+    bottom: 85%;
+    right: 55%;
+    
+    // background: rgb(0, 0, 0);
+    // background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    // color: #f1f1f1;
+    width: 50%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    p {
+        font-size: 2.4rem;
+    }
+}
+
+.overlay {
+    position: absolute;
+    
+    bottom: 85%;
+    right: 55%;
+    // background: rgb(0, 0, 0);
+    // background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    // color: #f1f1f1;
+    width: 50%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    p {
+        font-size: 2.4rem;
+    }
+}
+
+.overlay2 {
+    position: absolute;
+    
+    bottom: 85%;
+    right: 55%;
+    // background: rgb(0, 0, 0);
+    // background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    // color: #f1f1f1;
+    width: 50%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    p {
+        font-size: 2.4rem;
+    }
+}
+
+.overlay3 {
+    position: absolute;
+    display: inline-block;
+    bottom: 85%;
+    right: 55%;
+    // background: rgb(0, 0, 0);
+    // background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    // color: #f1f1f1;
+    width: 50%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    p {
+        font-size: 2.4rem;
+    }
+}
+
+
+/* When you mouse over the container, fade in the overlay title */
+
+
+
+
+
+
+

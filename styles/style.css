@@ -409,6 +409,8 @@ nav li a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 14rem;
 }
 
 .view-work .all-work {
@@ -1086,4 +1088,132 @@ footer ul {
   background-color: black;
   color: #F5F5F5;
 }
+
+.work-image {
+  width: 100%;
+  height: auto;
+  padding-top: 0rem;
+  margin-bottom: 10rem;
+  max-width: 900px;
+  max-height: 900px;
+}
+
+.work-image:hover {
+  -webkit-transform: skewY(7deg) scale(0.95, 0.95);
+          transform: skewY(7deg) scale(0.95, 0.95);
+  /* Firefox 16+, IE 10+, Opera */
+}
+
+.my-picture2 {
+  position: relative;
+}
+
+.my-picture3 {
+  position: relative;
+}
+
+.my-picture4 {
+  position: relative;
+}
+
+.my-picture5 {
+  position: relative;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.my-picture3:hover .overlay1 {
+  opacity: 1;
+}
+
+.my-picture2:hover .overlay {
+  opacity: 1;
+}
+
+.my-picture4:hover .overlay2 {
+  opacity: 1;
+}
+
+.my-picture5:hover .overlay3 {
+  opacity: 1;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay1 {
+  position: absolute;
+  bottom: 85%;
+  right: 55%;
+  /* Black see-through */
+  width: 50%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay1 p {
+  font-size: 2.4rem;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 85%;
+  right: 55%;
+  /* Black see-through */
+  width: 50%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 2.4rem;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 85%;
+  right: 55%;
+  /* Black see-through */
+  width: 50%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay2 p {
+  font-size: 2.4rem;
+}
+
+.overlay3 {
+  position: absolute;
+  display: inline-block;
+  bottom: 85%;
+  right: 55%;
+  /* Black see-through */
+  width: 50%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.overlay3 p {
+  font-size: 2.4rem;
+}
+
+/* When you mouse over the container, fade in the overlay title */
 /*# sourceMappingURL=style.css.map */

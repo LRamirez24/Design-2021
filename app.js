@@ -87,6 +87,59 @@ gsap.from(".transition6", {
     }
 })
 
+// gsap.from(".my-picture2", {
+//     x: 0,
+//     y: 100,
+//     opacity: 0,
+//     stagger: 0.8,
+//     rotation: -100,
+//     scrollTrigger: {
+//         trigger: ".my-picture2",
+//         start: "top center",
+//         end: "top 100px",
+//     }
+// })
+
+// gsap.from(".my-picture3", {
+//     x: 0,
+//     y: 100,
+//     opacity: 0,
+//     stagger: 0.8,
+//     rotation: -100,
+//     scrollTrigger: {
+//         trigger: ".my-picture3",
+//         start: "top center",
+//         end: "top 100px",
+//     }
+// })
+
+// gsap.from(".my-picture4", {
+//     x: 0,
+//     y: 100,
+//     opacity: 0,
+//     stagger: 0.8,
+//     rotation: -100,
+//     scrollTrigger: {
+//         trigger: ".my-picture4",
+//         start: "top center",
+//         end: "top 100px",
+//     }
+// })
+
+// gsap.from(".my-picture5", {
+//     x: 0,
+//     y: 100,
+//     opacity: 0,
+//     stagger: 0.8,
+//     rotation: -100,
+//     scrollTrigger: {
+//         trigger: ".my-picture5",
+//         start: "top center",
+//         end: "top 100px",
+//     }
+// })
+
+
 //gsap.to(".boxes", 1, {
 //  scale: 0.1,
 //y: 500,
