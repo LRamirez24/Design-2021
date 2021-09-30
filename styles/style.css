@@ -392,6 +392,8 @@ nav li a:hover {
 .elena img {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .elena img:hover {
@@ -468,6 +470,8 @@ footer ul {
   margin-right: 3rem;
   width: 3em;
   height: 3rem;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .social-icons1,
@@ -478,6 +482,8 @@ footer ul {
 .social-icons2 {
   width: 3em;
   height: 3rem;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .social-icons1:hover {
@@ -971,7 +977,8 @@ footer ul {
   max-width: 500px;
   max-height: 400px;
   border-radius: 12px;
-  border: solid black 0.5px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 
 .skills-pic:hover {

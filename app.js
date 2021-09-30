@@ -22,11 +22,11 @@ gsap.from(".logo", { duration: 4, x: 300, opacity: 0, scale: 0.5 });
 
 
 gsap.from(".transition2", {
-    x: 0,
+    x: -100,
     y: 100,
     opacity: 0,
     stagger: 0.8,
-    rotation: -100,
+    rotation: 0,
     scrollTrigger: {
         trigger: ".transition2",
         start: "top center",
@@ -36,11 +36,11 @@ gsap.from(".transition2", {
 
 
 gsap.from(".transition3", {
-    x: 0,
+    x: 200,
     y: 100,
     opacity: 0,
     stagger: 0.8,
-    rotation: -100,
+    rotation: -0,
     scrollTrigger: {
         trigger: ".transition3",
         start: "top center",
@@ -49,11 +49,11 @@ gsap.from(".transition3", {
 })
 
 gsap.from(".transition4", {
-    x: 0,
+    x: -100,
     y: 100,
     opacity: 0,
     stagger: 0.8,
-    rotation: -100,
+    rotation: 0,
     scrollTrigger: {
         trigger: ".transition4",
         start: "top center",
@@ -62,11 +62,11 @@ gsap.from(".transition4", {
 })
 
 gsap.from(".transition5", {
-    x: 0,
+    x: 200,
     y: 100,
     opacity: 0,
     stagger: 0.8,
-    rotation: -100,
+    rotation: 0,
     scrollTrigger: {
         trigger: ".transition5",
         start: "top center",
@@ -75,11 +75,11 @@ gsap.from(".transition5", {
 })
 
 gsap.from(".transition6", {
-    x: 0,
+    x: -100,
     y: 100,
     opacity: 0,
     stagger: 0.8,
-    rotation: -100,
+    rotation: 0,
     scrollTrigger: {
         trigger: ".transition6",
         start: "top center",
