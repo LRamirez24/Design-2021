@@ -186,51 +186,51 @@ gsap.from(".transition5", {
 //js ticker
 
 
-gsap.from(".transitionticker", {
-  x: 0,
-  y: 100,
-  opacity: 0,
-  stagger: 0.8,
-  rotation: 0,
-  scrollTrigger: {
-      trigger: ".transitionticker",
-      start: "top center",
+// gsap.from(".transitionticker", {
+//   x: 0,
+//   y: 100,
+//   opacity: 0,
+//   stagger: 0.8,
+//   rotation: 0,
+//   scrollTrigger: {
+//       trigger: ".transitionticker",
+//       start: "top center",
     
-      end: "top 100px",
-  }
-});
+//       end: "top 100px",
+//   }
+// });
 
 
 
 
 
 
-const dur = 30;
+// const dur = 30;
 
-document.querySelectorAll('.js-ticker .wrapper').forEach(ticker => {
-  // Get the initial size of the ticker
-  const totalDistance = $(ticker).width();
+// document.querySelectorAll('.js-ticker .wrapper').forEach(ticker => {
+//   // Get the initial size of the ticker
+//   const totalDistance = $(ticker).width();
   
-  // Position the ticker
-  gsap.set(ticker, {yPercent: -50});
+//   // Position the ticker
+//   gsap.set(ticker, {yPercent: -50});
   
-  // Clone the first item and add it to the end
-  $(ticker).append($(ticker.querySelector("li")).clone());
+//   // Clone the first item and add it to the end
+//   $(ticker).append($(ticker.querySelector("li")).clone());
   
-  // Get all of the items
-  const items = ticker.querySelectorAll("li");
+//   // Get all of the items
+//   const items = ticker.querySelectorAll("li");
   
-  const anim = gsap.to(ticker, { 
-    duration: dur,
-    x: -totalDistance,
-    ease: "none",
-    repeat: -1
-  });
+//   const anim = gsap.to(ticker, { 
+//     duration: dur,
+//     x: -totalDistance,
+//     ease: "none",
+//     repeat: -1
+//   });
 
-  let startPos;
-  const wrap = gsap.utils.wrap(0, 1);
+//   let startPos;
+//   const wrap = gsap.utils.wrap(0, 1);
 
-});
+// });
 
 
 
