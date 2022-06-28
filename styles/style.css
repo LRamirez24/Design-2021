@@ -444,6 +444,8 @@ nav li a:hover {
      object-fit: cover;
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .projects-section .project-img2 .scifi2:hover {
