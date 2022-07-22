@@ -61,6 +61,10 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+button{
+    transition: all .4s ease-in-out;
+}
+
 textarea {
     font-size: 3.2rem;
     padding-left: 1rem;
@@ -262,6 +266,7 @@ nav li a:hover {
     p{
         font-size: 2rem;
         text-transform: uppercase;
+        margin-right: 4rem;
         
         justify-content: flex-end;
     }
@@ -386,7 +391,7 @@ nav li a:hover {
             // height: 80vh;
             object-fit: cover;
             transition: all 0.7s ease-in-out;
-            object-fit: contain;
+            object-fit: fill;
             &:hover{
                 transform: skewY(-7deg) scale(0.95, 0.95);
                 transition: all 0.7s ease-in-out;
@@ -577,17 +582,20 @@ footer ul {
     width: 3em;
     height: 3rem;
     transition-duration: 0.4s;
+    transition: all .4s ease-in-out;
 }
 
 .social-icons1,
 .social-icons2 {
     margin-bottom: 8rem;
+    
 }
 
 .social-icons2 {
     width: 3em;
     height: 3rem;
     transition-duration: 0.4s;
+    transition: all .4s ease-in-out;
 }
 
 .social-icons1:hover {
@@ -699,7 +707,8 @@ footer ul {
         text-transform: uppercase;
         font-family: 'Open Sans', sans-serif;
         border: 1px solid rgb(163, 163, 163);
-        transition-duration: 0.4s;
+        
+        transition: all .4s ease-in-out;
         color: rgb(204, 204, 204);
         border-radius: 32px;
         &:hover {
@@ -1033,7 +1042,8 @@ footer ul {
         text-transform: uppercase;
         font-family: 'Open Sans', sans-serif;
         border: 1px solid rgb(163, 163, 163);
-        transition-duration: 0.4s;
+      
+        transition: all .4s ease-in-out;
         color: rgb(248, 246, 246);
         border-radius: 32px;
         &:hover {
@@ -1233,10 +1243,11 @@ footer ul {
     max-width: 700px;
     max-height: 500px;
     border-radius: 12px;
+    transition: all .4s ease-in-out;
     // border: solid black 0.5px;
-    transition-duration: 0.4s;
+    // transition-duration: 0.4s;
     &:hover {
-        transform: scale(1.2, 1.2);
+        transform: scale(1.1);
         // box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
     }
 }
