@@ -389,7 +389,7 @@ nav li a:hover {
             width: 60rem;
             height: 40rem;
             // height: 80vh;
-            object-fit: cover;
+            
             transition: all 0.7s ease-in-out;
             object-fit: fill;
             &:hover{
@@ -427,8 +427,7 @@ nav li a:hover {
             height: 40rem;
            
             transition: all 0.7s ease-in-out;
-            // height: 80vh;
-            // object-fit: cover;
+             object-fit: cover;
             &:hover{
                 transform: skewY(-7deg) scale(0.95, 0.95);
                 // transition: all 0.7s ease-in-out;

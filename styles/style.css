@@ -446,8 +446,6 @@ nav li a:hover {
 .projects-section .project-img2 .scifi2 {
   width: 60rem;
   height: 40rem;
-  -o-object-fit: cover;
-     object-fit: cover;
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
   -o-object-fit: fill;
@@ -493,6 +491,8 @@ nav li a:hover {
   height: 40rem;
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .projects-section .project-img4 .scifi4:hover {
