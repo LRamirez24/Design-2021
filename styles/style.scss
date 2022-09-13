@@ -391,7 +391,7 @@ nav li a:hover {
             // height: 80vh;
             
             transition: all 0.7s ease-in-out;
-            object-fit: fill;
+            object-fit: cover;
             &:hover{
                 transform: skewY(-7deg) scale(0.95, 0.95);
                 transition: all 0.7s ease-in-out;
