@@ -267,6 +267,7 @@ nav li a:hover {
   height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 3.2rem;
 }
 
 .hero .luis-info .info-2 {
@@ -280,6 +281,7 @@ nav li a:hover {
   overflow-x: hidden;
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
+  border-radius: 3.2rem;
 }
 
 .wave {
@@ -814,6 +816,7 @@ footer ul {
     height: 80vh;
     -o-object-fit: cover;
        object-fit: cover;
+    border-radius: 3.2rem;
   }
   .hero .luis-info .info-2 {
     font-size: 2rem;
@@ -825,6 +828,7 @@ footer ul {
     overflow-x: hidden;
     -webkit-transform: rotate(10deg);
             transform: rotate(10deg);
+    border-radius: 3.2rem;
   }
   .wave {
     position: absolute;
@@ -916,6 +920,7 @@ footer ul {
   .me {
     width: 25rem;
     height: 25rem;
+    border-radius: 3.2rem;
   }
   .luis-bio .luis-info2 {
     font-size: 1rem;
@@ -1108,6 +1113,9 @@ footer ul {
   .hero .luis-bio {
     font-size: 5rem;
     padding-top: 1rem;
+  }
+  .hero .me {
+    border-radius: 2.4rem;
   }
   .hero .scroll {
     margin-left: 0;
