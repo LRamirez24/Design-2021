@@ -1393,9 +1393,10 @@ footer ul {
 
 .post-style img {
   margin-top: 4rem;
-  max-width: 800rem;
+  max-width: 90rem;
   max-height: 50rem;
   border-radius: 3.2rem;
+  margin-bottom: 6rem;
 }
 
 .adidas-design {
