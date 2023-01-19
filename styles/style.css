@@ -1391,6 +1391,13 @@ footer ul {
   margin-bottom: 0;
 }
 
+.post-style img {
+  margin-top: 4rem;
+  max-width: 800rem;
+  max-height: 50rem;
+  border-radius: 3.2rem;
+}
+
 .adidas-design {
   width: 100%;
   padding-top: 0rem;
