@@ -17,7 +17,7 @@ body {
   height: 100vh;
   font-family: 'Six Caps', sans-serif;
   background-color: #121313;
-  color: #fff;
+  color: #f2f2f2;
   overflow-x: hidden;
 }
 
@@ -27,7 +27,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #f2f2f2;
 }
 
 img {
@@ -87,7 +87,7 @@ textarea {
 }
 
 .intro-text2 h1 {
-  color: white;
+  color: #f2f2f2;
   font-size: 14rem;
   text-align: center;
   font-family: 'Six Caps', sans-serif;
@@ -241,7 +241,7 @@ nav li a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 5rem 10rem;
-  color: white;
+  color: #f2f2f2;
 }
 
 .hero .luis-info {
@@ -399,7 +399,7 @@ nav li a:hover {
 
 .projects-name h2 {
   font-size: 10rem;
-  color: #fff;
+  color: #f2f2f2;
 }
 
 .projects-section {
@@ -544,7 +544,7 @@ nav li a:hover {
 .projects-section .project-info p {
   font-size: 3rem;
   font-weight: bold;
-  color: #fff;
+  color: #f2f2f2;
 }
 
 .projects-section .project-info .arrow {
@@ -568,7 +568,7 @@ nav li a:hover {
   /* Black see-through */
   width: 100%;
   opacity: 0;
-  color: white;
+  color: #f2f2f2;
   font-weight: bold;
   padding: 20px;
   text-align: center;
@@ -604,7 +604,7 @@ nav li a:hover {
   padding: 0;
   font-family: sans-serif;
   line-height: 50px;
-  color: white;
+  color: #f2f2f2;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 10vw;
@@ -795,7 +795,7 @@ footer ul {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 5rem 10rem;
-    color: white;
+    color: #f2f2f2;
   }
   .hero .luis-info {
     -webkit-box-flex: 1;
@@ -1065,7 +1065,7 @@ footer ul {
     overflow-x: hidden;
   }
   .intro-text2 h1 {
-    color: white;
+    color: #f2f2f2;
     font-size: 5.6rem;
     text-align: center;
     font-family: 'Six Caps', sans-serif;
@@ -1228,7 +1228,7 @@ footer ul {
 }
 
 .about-me a {
-  color: #fff;
+  color: #f2f2f2;
 }
 
 .about-me a:hover {
@@ -1382,6 +1382,9 @@ footer ul {
   font-size: 2rem;
   max-width: 46em;
   margin-bottom: 4rem;
+  letter-spacing: 0rem;
+  font-size: 2rem;
+  color: #f2f2f2;
 }
 
 .post-style h3 {
@@ -1389,6 +1392,7 @@ footer ul {
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
+  color: #f2f2f2;
 }
 
 .post-style img {
@@ -1397,6 +1401,33 @@ footer ul {
   max-height: 50rem;
   border-radius: 3.2rem;
   margin-bottom: 6rem;
+}
+
+.thank-you {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6rem 0rem;
+}
+
+.thank-you img {
+  border-radius: 3.2rem;
+  min-width: 60vw;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.thank-you img:hover {
+  -webkit-transform: scale(0.95, 0.95);
+          transform: scale(0.95, 0.95);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .adidas-design {
@@ -1446,7 +1477,7 @@ footer ul {
   margin: 4px 2px;
   cursor: pointer;
   font-size: 1.6rem;
-  color: white;
+  color: #f2f2f2;
   font-family: 'Quicksand', sans-serif;
   border: 1px solid #a3a3a3;
   background-color: transparent;
@@ -1517,7 +1548,7 @@ footer ul {
   -webkit-transition: .5s ease;
   transition: .5s ease;
   opacity: 0;
-  color: white;
+  color: #f2f2f2;
   font-weight: bold;
   padding: 20px;
   text-align: center;
@@ -1536,7 +1567,7 @@ footer ul {
   -webkit-transition: .5s ease;
   transition: .5s ease;
   opacity: 0;
-  color: white;
+  color: #f2f2f2;
   font-weight: bold;
   padding: 20px;
   text-align: center;
@@ -1555,7 +1586,7 @@ footer ul {
   -webkit-transition: .5s ease;
   transition: .5s ease;
   opacity: 0;
-  color: white;
+  color: #f2f2f2;
   font-weight: bold;
   padding: 20px;
   text-align: center;
@@ -1575,7 +1606,7 @@ footer ul {
   -webkit-transition: .5s ease;
   transition: .5s ease;
   opacity: 0;
-  color: white;
+  color: #f2f2f2;
   font-weight: bold;
   padding: 20px;
   text-align: center;
