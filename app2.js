@@ -47,16 +47,16 @@ db.collection('posts').orderBy('createdAt', 'desc', "postName").get().then((snap
 //saving data 
 //not using rn because of dont need clients to post only me rn
 
-form.addEventListener('submit', (e) => {
- e.preventDefault();
-db.collection('posts').add({
- author: form.author.value,
-postName: form.postTitle.value,
-postContent: form.postContent.value,
-createdAt: form.postDate.value
-});
- form.author.value = '';
- form.postTitle.value = '';
- form.postContent.value = '';
- form.postDate.value = '';
-});
+// form.addEventListener('submit', (e) => {
+//  e.preventDefault();
+// db.collection('posts').add({
+//  author: form.author.value,
+// postName: form.postTitle.value,
+// postContent: form.postContent.value,
+// createdAt: form.postDate.value
+// });
+//  form.author.value = '';
+//  form.postTitle.value = '';
+//  form.postContent.value = '';
+//  form.postDate.value = '';
+// });
