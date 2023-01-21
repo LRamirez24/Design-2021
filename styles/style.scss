@@ -1192,9 +1192,11 @@ footer ul {
 }
 
 .about-me p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 4rem;
-    line-height: 1.5;
+    line-height: 150%;
+    margin-top: 2rem;
+    letter-spacing: 0;
 }
 
 .about-me a {
@@ -1205,7 +1207,7 @@ footer ul {
 }
 
 .my-picture2 {
-   margin-top: 4rem;
+   margin-top: 8rem;
    margin-bottom: 4rem;
 }
 .my-picture3 {
@@ -1214,18 +1216,22 @@ footer ul {
  }
 
 .my-values p {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    line-height: 150%;
 }
 
 .my-values h2 {
     font-size: 6rem;
-    margin-top: 4rem;
+    margin-top: 8rem;
+    
 }
 
 .my-values h3 {
-    font-size: 4rem;
+    font-size: 2.4rem;
     margin-top: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .last-value {
@@ -1247,8 +1253,9 @@ footer ul {
 }
 
 .skills-title {
-    font-size: 4rem;
+    font-size: 6rem;
     margin-top: 4rem;
+    color: #0AF0FF;
 }
 
 .skills-container {
@@ -1335,6 +1342,8 @@ footer ul {
         letter-spacing: 0rem;
         font-size: 2rem;
         color: #f2f2f2;
+        // white-space: pre-line;
+       
         // max-width: 90ch;
     }
     h3{
@@ -1343,6 +1352,7 @@ footer ul {
         margin-top: 0;
         margin-bottom: 0;
         color: #f2f2f2;
+        font-family: 'Six Caps', sans-serif;
     }
     img{
         margin-top: 4rem;
@@ -1359,6 +1369,8 @@ footer ul {
     justify-content: center;
     align-items: center;
     padding: 6rem 0rem;
+    // padding-bottom: 6rem;
+    // margin-top: -19rem;
     img{
         border-radius: 3.2rem;
         min-width: 60vw;
@@ -1582,3 +1594,258 @@ footer ul {
 /* When you mouse over the container, fade in the overlay title */
 
 // CSS ANIMATION TEST
+
+// about new skills test
+
+.skills-title-new{
+    display: flex;
+   font-size: 6rem;
+   color: #0AF0FF;
+   margin-top: 10rem;
+   letter-spacing: 0.1rem;
+   padding-left: 10rem;
+    h4{
+        font-size: 6rem;
+        color: #0AF0FF;
+    }
+}
+
+.new-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 15rem;
+    h5{
+        font-size: 2.4rem;
+        font-family: 'Open Sans', sans-serif;
+        
+        margin-bottom: 1.6rem;
+        padding-left: 3.2rem;
+    }
+    p{
+        font-size: 1.6rem;
+        line-height: 160%;
+     padding-left: 3.2rem;
+        padding-right: 12rem;
+    }
+    .new-skills-section1{
+        display: flex;
+        padding: 0 10rem;
+        img{
+            max-width: 6rem;
+            max-height: 6rem;
+            width: 100%;
+            
+        }
+    }
+    .new-skills-section2{
+        display: flex;
+    }
+    img{
+        max-width: 6rem;
+        max-height: 6rem;
+        width: 100%;   
+    } 
+}
+
+
+.new-skills2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 20rem;
+    h5{
+        font-size: 2.4rem;
+        font-family: 'Open Sans', sans-serif;
+        
+        margin-bottom: 1.6rem;
+        padding-left: 3.2rem;
+    }
+    p{
+        font-size: 1.6rem;
+        line-height: 160%;
+     padding-left: 3.2rem;
+        padding-right: 10rem;
+    }
+    .new-skills-section3{
+        display: flex;
+        padding: 0 12rem;
+        img{
+            max-width: 6rem;
+            max-height: 6rem;
+            width: 100%;
+            
+        }
+    }
+    .new-skills-section4{
+        display: flex;
+        img{
+            max-width: 6rem;
+            max-height: 6rem;
+            width: 100%;
+            
+        }
+    }
+    
+}
+
+//Responsiveness
+
+@media only screen and (max-width: 900px) {
+    .about-me{
+        p{
+            padding: 0rem 10rem;
+        }
+        br{
+            display: none;
+        }
+    }
+.skills-title-new{
+    display: flex;
+ 
+   flex-direction: column;
+   color: #0AF0FF;
+   margin-top: 6rem;
+   letter-spacing: 0.1rem;
+   padding-left: 4rem;
+    h4{
+        font-size: 6rem;
+        color: #0AF0FF;
+    }
+}
+
+.new-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+    padding-left: 4rem;
+    h5{
+        font-size: 2.4rem;
+        font-family: 'Open Sans', sans-serif;
+        
+        margin-bottom: 1.6rem;
+        padding-left: 3.2rem;
+        margin-top: 8rem;
+    }
+    p{
+        font-size: 1.6rem;
+        line-height: 160%;
+     padding-left: 3.2rem;
+        padding-right: 4rem;
+    }
+    .new-skills-section1{
+        display: flex;
+        padding: 0 0rem;
+        img{
+            max-width: 6rem;
+            max-height: 6rem;
+            width: 100%;
+            margin-top: 8rem;
+            
+        }
+    }
+    .new-skills-section2{
+        display: flex;
+    }
+    img{
+        max-width: 6rem;
+        max-height: 6rem;
+        width: 100%;   
+        margin-top: 8rem;
+    } 
+}
+
+
+.new-skills2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-bottom: 15rem;
+    padding-left: 4rem;
+    h5{
+        font-size: 2.4rem;
+        font-family: 'Open Sans', sans-serif;
+     
+        margin-bottom: 1.6rem;
+        padding-left: 3.2rem;
+        margin-top: 6rem;
+    }
+    p{
+        font-size: 1.6rem;
+        line-height: 160%;
+     padding-left: 3.2rem;
+        padding-right: 4rem;
+    }
+    .new-skills-section3{
+        display: flex;
+        padding: 0 0rem;
+        img{
+            max-width: 6rem;
+            max-height: 6rem;
+            width: 100%;
+            margin-top: 8rem;
+            
+        }
+    }
+    .new-skills-section4{
+        display: flex;
+        img{
+            max-width: 6rem;
+            max-height: 6rem;
+            width: 100%;
+            margin-top: 8rem;
+            
+        }
+    }
+    
+}
+   
+   }
+
+   @media only screen and (max-width: 450px) {
+.about-title{
+    h1{
+        font-size: 6rem;
+    }
+}
+.about-me{
+    p{
+        padding: 0rem 6rem;
+    }
+}
+.my-values{
+    h2{
+        text-align: center;
+    }
+    h3{
+        margin-top: 6rem;
+    }
+}
+.skills-title-new{
+    h4{
+        text-align: center;
+    }
+}
+.new-skills{
+    padding-left: 2rem;
+    h5{
+        font-size: 2rem;
+        padding-right: 2rem;
+        margin-top: 6rem;
+    }
+}
+.new-skills2{
+    padding-left: 2rem;
+    h5{
+        font-size: 2rem;
+        padding-right: 2rem;
+    }
+}
+   }
