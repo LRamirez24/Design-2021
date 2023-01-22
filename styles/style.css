@@ -1257,7 +1257,8 @@ footer ul {
 
 .my-picture2 img {
   border-radius: 1.6rem;
-  min-width: 90rem;
+  max-width: 90rem;
+  max-height: 62rem;
 }
 
 .my-picture3 {
@@ -1266,8 +1267,8 @@ footer ul {
 }
 
 .my-picture3 img {
-  min-width: 90rem;
-  min-height: 50rem;
+  max-width: 90rem;
+  max-height: 62rem;
 }
 
 .my-values p {
@@ -1300,8 +1301,6 @@ footer ul {
   width: 100%;
   padding-top: 0rem;
   margin-bottom: 0rem;
-  max-width: 550px;
-  max-height: 620px;
   margin-top: 3.2rem;
 }
 
