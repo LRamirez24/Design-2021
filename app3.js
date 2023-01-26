@@ -40,3 +40,29 @@ gsap.from(".box", {
     }
   });
 
+  gsap.from(".lets-talk", {
+    x: 0,
+    y: 100,
+    opacity: 0,
+    stagger: 0.8,
+    rotation: 0,
+    scrollTrigger: {
+        trigger: ".lets-talk",
+        start: "top center",
+        end: "top 100px",
+    }
+})
+
+// gsap.from(".new-footer", {
+//     x: 0,
+//     y: -200,
+//     opacity: 0,
+//     stagger: 1.4,
+//     rotation: 0,
+//     scrollTrigger: {
+//         trigger: ".new-footer",
+//         start: "top center",
+//         end: "top 100px",
+//     }
+// })
+

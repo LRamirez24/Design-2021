@@ -10,38 +10,38 @@ tl.fromTo('nav', { opacity: 0 }, { opacity: 1, duration: 1 });
 
 tl.fromTo('.stagger1', { opacity: 0 }, { opacity: 1, stagger: .3, duration: 1 }, "-=1.4");
 tl.fromTo('.stagger2', { opacity: 0 }, { opacity: 1, stagger: .7, duration: 1.5 }, "-=1");
-tl.fromTo('.me', { opacity: 0 }, { opacity: 1, stagger: .7, duration: 2 }, "-=1.4");
+tl.fromTo('.hero-image-section', { opacity: 0 }, { opacity: 1, stagger: .7, duration: 2 }, "-=1.4");
 // tl.fromTo('.hero', { opacity: 0 }, { opacity: 1, stagger: .3, duration: 1 }, "-=1.4");
 
 // tl.fromTo('.p-text', { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1.4");
 
 //gsap.from(".boxes", { duration: 5, x: 300, ease: "bounce", opacity: 0, scale: 0.5 });
-gsap.from(".logo", { duration: 4, x: 300, opacity: 0, scale: 0.5 });
+// gsap.from(".logo", { duration: 4, x: 300, opacity: 0, scale: 0.5 });
 
 
 
-gsap.from(".text-transition", {
+// gsap.from(".text-transition", {
+//     x: 0,
+//     y: 100,
+//     opacity: 0,
+//     stagger: 0.8,
+//     rotation: 0,
+//     scrollTrigger: {
+//         trigger: ".text-transition",
+//         start: "top center",
+//         end: "top 100px",
+//     }
+// })
+
+
+gsap.from(".recent-work", {
     x: 0,
     y: 100,
     opacity: 0,
     stagger: 0.8,
     rotation: 0,
     scrollTrigger: {
-        trigger: ".text-transition",
-        start: "top center",
-        end: "top 100px",
-    }
-})
-
-
-gsap.from(".projects-title", {
-    x: -100,
-    y: 100,
-    opacity: 0,
-    stagger: 0.8,
-    rotation: 0,
-    scrollTrigger: {
-        trigger: ".projects-title",
+        trigger: ".recent-work",
         start: "top center",
         end: "top 100px",
     }
@@ -49,38 +49,40 @@ gsap.from(".projects-title", {
 
 
 gsap.from(".transition2", {
-    x: -100,
+    x: 10,
     y: 100,
     opacity: 0,
-    stagger: 0.8,
-    rotation: 0,
+    stagger: 1.1,
+    rotation: 10,
     scrollTrigger: {
         trigger: ".transition2",
         start: "top center",
         end: "top 100px",
+    
     }
 })
 
 
-gsap.from(".transition3", {
-    x: -100,
-    y: 100,
-    opacity: 0,
-    stagger: 0.8,
-    rotation: -0,
-    scrollTrigger: {
-        trigger: ".transition3",
-        start: "top center",
-        end: "top 100px",
-    }
-})
+// gsap.from(".transition3", {
+//     x: 10,
+//     y: 10,
+//     opacity: 0,
+//     stagger: 2.2,
+//     rotation: 10,
+//     scrollTrigger: {
+//         trigger: ".transition3",
+//         start: "top center",
+//         end: "top 100px",
+//         scrub: true,
+//     }
+// })
 
 gsap.from(".transition4", {
-    x: 200,
+    x: 10,
     y: 100,
     opacity: 0,
-    stagger: 0.8,
-    rotation: 0,
+    stagger: 1.1,
+    rotation: 10,
     scrollTrigger: {
         trigger: ".transition4",
         start: "top center",
@@ -88,40 +90,40 @@ gsap.from(".transition4", {
     }
 })
 
-gsap.from(".transition5", {
+// gsap.from(".transition5", {
+//     x: 0,
+//     y: 100,
+//     opacity: 0,
+//     stagger: 0.8,
+//     rotation: 0,
+//     scrollTrigger: {
+//         trigger: ".transition5",
+//         start: "top center",
+//         end: "top 100px",
+//     }
+// })
+
+
+
+gsap.from(".view-more-section", {
     x: 0,
     y: 100,
     opacity: 0,
     stagger: 0.8,
     rotation: 0,
     scrollTrigger: {
-        trigger: ".transition5",
+        trigger: ".view-more-section",
         start: "top center",
         end: "top 100px",
     }
 })
-
-
-
-// gsap.from(".transition6", {
-//     x: -100,
-//     y: 100,
-//     opacity: 0,
-//     stagger: 0.8,
-//     rotation: 0,
-//     scrollTrigger: {
-//         trigger: ".transition6",
-//         start: "top center",
-//         end: "top 100px",
-//     }
-// })
 
 // gsap.from(".my-picture2", {
 //     x: 0,
 //     y: 100,
 //     opacity: 0,
 //     stagger: 0.8,
-//     rotation: -100,
+//     rotation: 0,
 //     scrollTrigger: {
 //         trigger: ".my-picture2",
 //         start: "top center",
@@ -129,27 +131,27 @@ gsap.from(".transition5", {
 //     }
 // })
 
-// gsap.from(".my-picture3", {
-//     x: 0,
-//     y: 100,
-//     opacity: 0,
-//     stagger: 0.8,
-//     rotation: -100,
-//     scrollTrigger: {
-//         trigger: ".my-picture3",
-//         start: "top center",
-//         end: "top 100px",
-//     }
-// })
+gsap.from(".lets-talk", {
+    x: 0,
+    y: 100,
+    opacity: 0,
+    stagger: 0.8,
+    rotation: 0,
+    scrollTrigger: {
+        trigger: ".lets-talk",
+        start: "top center",
+        end: "top 100px",
+    }
+})
 
-// gsap.from(".my-picture4", {
+// gsap.from(".new-footer", {
 //     x: 0,
-//     y: 100,
+//     y: -200,
 //     opacity: 0,
-//     stagger: 0.8,
-//     rotation: -100,
+//     stagger: 1.4,
+//     rotation: 0,
 //     scrollTrigger: {
-//         trigger: ".my-picture4",
+//         trigger: ".new-footer",
 //         start: "top center",
 //         end: "top 100px",
 //     }
