@@ -1160,7 +1160,7 @@ footer ul {
     font-family: 'Space Grotesk', sans-serif;
     line-height: 144%;
     font-weight: 300;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     margin-bottom: 4rem;
     margin-top: 8rem;
     letter-spacing: 0.02em;
@@ -1699,11 +1699,12 @@ footer ul {
     p{
         font-size: 1.6rem;
         font-family: 'Space Grotesk', sans-serif;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         color: #2C292A;
         line-height: 144%;
      padding-left: 3.2rem;
         padding-right: 12rem;
+        font-weight: 300;
     }
     .new-skills-section1{
         display: flex;
@@ -1745,8 +1746,9 @@ footer ul {
     p{
         font-size: 1.6rem;
         font-family: 'Space Grotesk', sans-serif;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         color: #2C292A;
+        font-weight: 300;
         line-height: 144%;
         padding-left: 3.2rem;
         padding-right: 10rem;
@@ -1999,6 +2001,7 @@ footer ul {
             p{
                 font-size: 1.6rem;
                 font-family: 'Space Grotesk', sans-serif;
+                font-weight: 300;
             }
             
                 .line-1{

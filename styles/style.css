@@ -251,7 +251,6 @@ footer ul {
   font-family: 'Space Grotesk', sans-serif;
   line-height: 144%;
   font-weight: 300;
-  text-transform: uppercase;
   margin-bottom: 4rem;
   margin-top: 8rem;
   letter-spacing: 0.02em;
@@ -694,11 +693,11 @@ footer ul {
 .new-skills p {
   font-size: 1.6rem;
   font-family: 'Space Grotesk', sans-serif;
-  text-transform: uppercase;
   color: #2C292A;
   line-height: 144%;
   padding-left: 3.2rem;
   padding-right: 12rem;
+  font-weight: 300;
 }
 
 .new-skills .new-skills-section1 {
@@ -754,8 +753,8 @@ footer ul {
 .new-skills2 p {
   font-size: 1.6rem;
   font-family: 'Space Grotesk', sans-serif;
-  text-transform: uppercase;
   color: #2C292A;
+  font-weight: 300;
   line-height: 144%;
   padding-left: 3.2rem;
   padding-right: 10rem;
@@ -1025,6 +1024,7 @@ footer ul {
 .main-headline .hero-image-section .bio-section p {
   font-size: 1.6rem;
   font-family: 'Space Grotesk', sans-serif;
+  font-weight: 300;
 }
 
 .main-headline .hero-image-section .bio-section .line-1 {
