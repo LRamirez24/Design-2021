@@ -28,7 +28,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #f2f2f2;
+  color: #2C292A;
 }
 
 img {
@@ -1297,7 +1297,6 @@ footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #2C292A;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -1323,7 +1322,6 @@ footer ul {
   font-family: 'Space Grotesk', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  color: #2C292A;
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
   position: relative;
@@ -1600,7 +1598,6 @@ footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #2C292A;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -1626,7 +1623,6 @@ footer ul {
   font-family: 'Space Grotesk', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  color: #2C292A;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -3392,5 +3388,11 @@ footer ul {
   #last-footer-item {
     margin-bottom: 0rem;
   }
+}
+
+.current-link {
+  color: #2C292A;
+  border-bottom: 2.4px solid black;
+  padding-bottom: 1px;
 }
 /*# sourceMappingURL=style.css.map */

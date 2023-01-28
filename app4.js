@@ -33,10 +33,10 @@ gsap.from(".box", {
 
 
 gsap.from(".transition4", {
-    x: 10,
+    x: 0,
     y: 100,
     opacity: 0,
-    stagger: 1.1,
+    stagger: 0.8,
     rotation: 10,
     scrollTrigger: {
         trigger: ".transition4",

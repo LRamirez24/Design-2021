@@ -49,10 +49,10 @@ gsap.from(".recent-work", {
 
 
 gsap.from(".transition2", {
-    x: 10,
+    x: 00,
     y: 100,
     opacity: 0,
-    stagger: 1.1,
+    stagger: 0.8,
     rotation: 10,
     scrollTrigger: {
         trigger: ".transition2",
@@ -78,10 +78,10 @@ gsap.from(".transition2", {
 // })
 
 gsap.from(".transition4", {
-    x: 10,
+    x: 0,
     y: 100,
     opacity: 0,
-    stagger: 1.1,
+    stagger: 0.8,
     rotation: 10,
     scrollTrigger: {
         trigger: ".transition4",
