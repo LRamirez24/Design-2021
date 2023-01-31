@@ -1137,7 +1137,7 @@ footer ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 8rem;
+    margin-top: 12rem;
   
     .design-title {
         margin-top: 5rem;
@@ -1151,7 +1151,8 @@ footer ul {
     font-size: 10.1rem;
     line-height: 90%;
     text-transform: uppercase;
-    padding-left: 10rem;
+    text-align: center;
+    // padding-left: 10rem;
     color: #2C292A;
 }
 
@@ -1339,8 +1340,10 @@ footer ul {
         color: #2C292A;
         // text-align: center;
         margin-top: 1.6rem;
-        padding-left: 10rem;
-        margin-top: 8rem;
+        // padding-left: 10rem;
+        margin-top: 12rem;
+        text-align: center;
+        margin-bottom: 8rem;
         }
     }
 
@@ -1405,10 +1408,10 @@ footer ul {
         // max-width: 90ch;
     }
     h3{
-        font-size: 3.2rem;
+        font-size: 2.4rem;
         font-weight: 300;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 1.6rem;
         color: #2C292A;
         font-family: 'Space Grotesk', sans-serif;
         line-height: 144%;
@@ -1418,7 +1421,7 @@ footer ul {
     img{
         margin-top: 4rem;
         max-width: none;
-        max-height: 90rem;
+        max-height: 80rem;
         // border-radius: 3.2rem;
         margin-bottom: 4rem;
         
@@ -1793,7 +1796,7 @@ footer ul {
         font-size: 6.4rem;
         line-height: 90%;
         text-transform: uppercase;
-        padding-left: 10rem;
+        // padding-left: 10rem;
         color: #2C292A;
     }
 .skills-title-new{
@@ -1906,19 +1909,21 @@ footer ul {
 .about-title{
     h1{
         font-size: 3.2rem;
-        padding-left: 6rem;
+        // padding-left: 6rem;
     }
 }
 .about-me{
     p{
-        padding: 0rem 6rem;
+        padding: 0rem 4rem;
+        text-align: center;
     }
 }
 .my-picture2 img {
-    border-radius: 1.6rem;
+    // border-radius: 1.6rem;
     min-width: 40rem;
 }
 .my-values{
+    padding: 0rem 3.2rem;
     h2{
         text-align: center;
         line-height: 120%;
@@ -1973,13 +1978,14 @@ footer ul {
    .main-headline{
     background-color: #F0EDE2;
     // min-height: 100vh;
+    margin-top: 8rem;
     color: #2C292A;
     .sub-headline{
         font-size: 1.6rem;
         font-family: 'Clash Display', sans-serif;
         text-transform: uppercase;
         padding-left: 10rem;
-        padding-top: 6rem;
+        // padding-top: 8rem;
     }
     h1{
         font-family: 'Clash Display', sans-serif;
@@ -2537,7 +2543,7 @@ footer ul {
         // color: #2C292A;
         // align-items: center;
         justify-content: flex-end;
-        padding: 4rem 10rem 0rem 0rem;
+        padding: 2.4rem 10rem 0rem 0rem;
         nav{
            
            
@@ -3045,7 +3051,7 @@ footer ul {
             color: #2C292A;
             // text-align: center;
             margin-top: 1.6rem;
-            padding-left: 10rem;
+            // padding-left: 10rem;
             margin-top: 8rem;
             }
         }
@@ -3154,7 +3160,7 @@ footer ul {
                 color: #2C292A;
                 // text-align: center;
                 margin-top: 1.6rem;
-                padding-left: 10rem;
+                // padding-left: 10rem;
                 margin-top: 8rem;
                 }
             }
@@ -3712,8 +3718,12 @@ footer ul {
                     }      
                 }
                }
+            
+
+             
 
                .blog-container{
+
     
                 // display: flex;
                 // flex-direction: column;
@@ -4027,7 +4037,7 @@ footer ul {
         background-color: #F0EDE2;
         // min-height: 100vh;
         color: #2C292A;
-        margin-top: 8rem;
+        margin-top: 12rem;
        
         
         h2{
@@ -4037,14 +4047,16 @@ footer ul {
             line-height: 90%;
             text-transform: uppercase;
             color: #2C292A;
-            padding-left: 10rem;
+            // padding-left: 10rem;
+            text-align: center;
             margin-top: 1.6rem;
         }
         p{
             font-size: 1.6rem;
             font-family: 'Space Grotesk', sans-serif;
             text-transform: uppercase;
-            padding-left: 10rem;
+            // padding-left: 10rem;
+            text-align: center;
             line-height: 90%;
          
             // text-align: center;
@@ -4120,13 +4132,13 @@ footer ul {
             color: #2C292A;
             // text-align: center;
             margin-top: 1.6rem;
-            padding-left: 8rem;
+            // padding-left: 8rem;
         }
         p{
             font-size: 1.6rem;
             font-family: 'Space Grotesk', sans-serif;
             text-transform: uppercase;
-            padding-left: 8rem;
+            // padding-left: 8rem;
             // text-align: center;
             // margin-left: -40rem;
         }
@@ -4280,14 +4292,14 @@ footer ul {
              line-height: 90%;
              text-transform: uppercase;
              color: #2C292A;
-             padding-left: 4rem;
+            //  padding-left: 4rem;
              margin-top: 1.6rem;
          }
          p{
              font-size: 1.6rem;
              font-family: 'Space Grotesk', sans-serif;
              text-transform: uppercase;
-             padding-left: 4rem;
+            //  padding-left: 4rem;
             
          }
          .work-images-section1{
@@ -4394,7 +4406,7 @@ footer ul {
                  color: #2C292A;
                 //  text-align: center;
                  margin-top: 1.6rem;
-                 padding-left: 2rem;
+                //  padding-left: 2rem;
              }
              p{
                  font-size: 1.2rem;
@@ -4402,7 +4414,7 @@ footer ul {
                  text-transform: uppercase;
                 //  text-align: center;
                  margin-left: 0rem;
-                 padding-left: 2rem;
+                //  padding-left: 2rem;
              }
              .work-images-section1{
                  display: flex;
@@ -4492,4 +4504,127 @@ footer ul {
                 padding-bottom: 1px;
              }
 
-            
+          
+             //New Blog style
+
+
+// .blog-section1{
+    
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+
+    
+       
+    
+
+// }
+
+
+
+.new-blog-styles {
+    margin-bottom: 4rem;
+    padding-left: 2rem;
+    line-height: 2.4;
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    .blog-posts{
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+    }
+    h2{
+        font-family: 'Clash Display', sans-serif;
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 90%;
+        text-transform: uppercase;
+        color: #2C292A;
+        margin-top: 15rem;
+        
+    }
+    p {
+       
+        font-size: 1.6rem;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 144%;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    // margin-top: 2.4rem;
+    letter-spacing: 0.02em;
+    color: #2C292A;
+        max-width: none;
+       
+        // white-space: pre-line;
+       
+        // max-width: 90ch;
+    }
+    h3{
+        font-size: 2.4rem;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 1.6rem;
+        color: #2C292A;
+        font-family: 'Space Grotesk', sans-serif;
+        line-height: 144%;
+        font-weight: 500;
+        
+    }
+    h4{
+        font-size: 4rem;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 1.6rem;
+        color: #2C292A;
+        font-family: 'Space Grotesk', sans-serif;
+        line-height: 144%;
+        font-weight: 500;
+    }
+    img{
+        margin-top: 4rem;
+        max-width: none;
+        max-height: 80rem;
+        // border-radius: 3.2rem;
+        margin-bottom: 4rem;
+        
+    }
+}
+
+span{
+    a{
+        color: #2b0aff;
+        text-decoration: underline;
+    
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .post-style h2{
+        font-size: 3.2rem;
+    }
+    .post-style h3{
+        font-size: 1.8rem;
+    }
+    
+    }
+
+   @media only screen and (max-width: 500px) {
+    .new-blog-styles{
+        padding: 0rem 3.2rem;
+        h2{
+            font-size: 2.4rem;
+        }
+        h3{
+            font-size: 1.8rem;
+        }
+        h4{
+            font-size: 2.4rem;
+        }
+       } 
+    }

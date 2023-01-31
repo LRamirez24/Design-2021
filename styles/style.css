@@ -228,7 +228,7 @@ footer ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 8rem;
+  margin-top: 12rem;
 }
 
 .about-container .design-title {
@@ -242,7 +242,7 @@ footer ul {
   font-size: 10.1rem;
   line-height: 90%;
   text-transform: uppercase;
-  padding-left: 10rem;
+  text-align: center;
   color: #2C292A;
 }
 
@@ -425,8 +425,9 @@ footer ul {
   text-transform: uppercase;
   color: #2C292A;
   margin-top: 1.6rem;
-  padding-left: 10rem;
-  margin-top: 8rem;
+  margin-top: 12rem;
+  text-align: center;
+  margin-bottom: 8rem;
 }
 
 .btn-posts {
@@ -506,10 +507,10 @@ footer ul {
 }
 
 .post-style h3 {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
   font-weight: 300;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1.6rem;
   color: #2C292A;
   font-family: 'Space Grotesk', sans-serif;
   line-height: 144%;
@@ -519,7 +520,7 @@ footer ul {
 .post-style img {
   margin-top: 4rem;
   max-width: none;
-  max-height: 90rem;
+  max-height: 80rem;
   margin-bottom: 4rem;
 }
 
@@ -798,7 +799,6 @@ footer ul {
     font-size: 6.4rem;
     line-height: 90%;
     text-transform: uppercase;
-    padding-left: 10rem;
     color: #2C292A;
   }
   .skills-title-new {
@@ -927,14 +927,16 @@ footer ul {
 @media only screen and (max-width: 450px) {
   .about-title h1 {
     font-size: 3.2rem;
-    padding-left: 6rem;
   }
   .about-me p {
-    padding: 0rem 6rem;
+    padding: 0rem 4rem;
+    text-align: center;
   }
   .my-picture2 img {
-    border-radius: 1.6rem;
     min-width: 40rem;
+  }
+  .my-values {
+    padding: 0rem 3.2rem;
   }
   .my-values h2 {
     text-align: center;
@@ -985,6 +987,7 @@ footer ul {
 
 .main-headline {
   background-color: #F0EDE2;
+  margin-top: 8rem;
   color: #2C292A;
 }
 
@@ -993,7 +996,6 @@ footer ul {
   font-family: 'Clash Display', sans-serif;
   text-transform: uppercase;
   padding-left: 10rem;
-  padding-top: 6rem;
 }
 
 .main-headline h1 {
@@ -1601,7 +1603,7 @@ footer ul {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 4rem 10rem 0rem 0rem;
+  padding: 2.4rem 10rem 0rem 0rem;
 }
 
 .new-header nav ul {
@@ -2070,7 +2072,6 @@ footer ul {
     text-transform: uppercase;
     color: #2C292A;
     margin-top: 1.6rem;
-    padding-left: 10rem;
     margin-top: 8rem;
   }
 }
@@ -2171,7 +2172,6 @@ footer ul {
     text-transform: uppercase;
     color: #2C292A;
     margin-top: 1.6rem;
-    padding-left: 10rem;
     margin-top: 8rem;
   }
 }
@@ -3008,7 +3008,7 @@ footer ul {
 .more-work-new {
   background-color: #F0EDE2;
   color: #2C292A;
-  margin-top: 8rem;
+  margin-top: 12rem;
 }
 
 .more-work-new h2 {
@@ -3018,7 +3018,7 @@ footer ul {
   line-height: 90%;
   text-transform: uppercase;
   color: #2C292A;
-  padding-left: 10rem;
+  text-align: center;
   margin-top: 1.6rem;
 }
 
@@ -3026,7 +3026,7 @@ footer ul {
   font-size: 1.6rem;
   font-family: 'Space Grotesk', sans-serif;
   text-transform: uppercase;
-  padding-left: 10rem;
+  text-align: center;
   line-height: 90%;
 }
 
@@ -3098,13 +3098,11 @@ footer ul {
     text-transform: uppercase;
     color: #2C292A;
     margin-top: 1.6rem;
-    padding-left: 8rem;
   }
   .more-work-new p {
     font-size: 1.6rem;
     font-family: 'Space Grotesk', sans-serif;
     text-transform: uppercase;
-    padding-left: 8rem;
   }
   .more-work-new .work-images-section1 {
     display: -webkit-box;
@@ -3225,14 +3223,12 @@ footer ul {
     line-height: 90%;
     text-transform: uppercase;
     color: #2C292A;
-    padding-left: 4rem;
     margin-top: 1.6rem;
   }
   .more-work-new p {
     font-size: 1.6rem;
     font-family: 'Space Grotesk', sans-serif;
     text-transform: uppercase;
-    padding-left: 4rem;
   }
   .more-work-new .work-images-section1 {
     display: -webkit-box;
@@ -3311,14 +3307,12 @@ footer ul {
     text-transform: uppercase;
     color: #2C292A;
     margin-top: 1.6rem;
-    padding-left: 2rem;
   }
   .more-work-new p {
     font-size: 1.2rem;
     font-family: 'Space Grotesk', sans-serif;
     text-transform: uppercase;
     margin-left: 0rem;
-    padding-left: 2rem;
   }
   .more-work-new .work-images-section1 {
     display: -webkit-box;
@@ -3394,5 +3388,108 @@ footer ul {
   color: #2C292A;
   border-bottom: 2.4px solid black;
   padding-bottom: 1px;
+}
+
+.new-blog-styles {
+  margin-bottom: 4rem;
+  padding-left: 2rem;
+  line-height: 2.4;
+  padding: 0rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.new-blog-styles .blog-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.new-blog-styles h2 {
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 90%;
+  text-transform: uppercase;
+  color: #2C292A;
+  margin-top: 15rem;
+}
+
+.new-blog-styles p {
+  font-size: 1.6rem;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 144%;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  letter-spacing: 0.02em;
+  color: #2C292A;
+  max-width: none;
+}
+
+.new-blog-styles h3 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+  color: #2C292A;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 144%;
+  font-weight: 500;
+}
+
+.new-blog-styles h4 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+  color: #2C292A;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 144%;
+  font-weight: 500;
+}
+
+.new-blog-styles img {
+  margin-top: 4rem;
+  max-width: none;
+  max-height: 80rem;
+  margin-bottom: 4rem;
+}
+
+span a {
+  color: #2b0aff;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+  .post-style h2 {
+    font-size: 3.2rem;
+  }
+  .post-style h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .new-blog-styles {
+    padding: 0rem 3.2rem;
+  }
+  .new-blog-styles h2 {
+    font-size: 2.4rem;
+  }
+  .new-blog-styles h3 {
+    font-size: 1.8rem;
+  }
+  .new-blog-styles h4 {
+    font-size: 2.4rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
