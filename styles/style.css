@@ -520,7 +520,9 @@ footer ul {
 .post-style img {
   margin-top: 4rem;
   max-width: none;
-  max-height: 80rem;
+  max-height: 60rem;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-bottom: 4rem;
 }
 
@@ -1479,7 +1481,7 @@ footer ul {
   min-width: 60rem;
   max-width: 60rem;
   min-height: 80rem;
-  max-height: 80rem;
+  max-height: 100rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1497,7 +1499,7 @@ footer ul {
   min-width: 60rem;
   max-width: 60rem;
   min-height: 80rem;
-  max-height: 80rem;
+  max-height: 100rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -3467,8 +3469,10 @@ footer ul {
 .new-blog-styles img {
   margin-top: 4rem;
   max-width: none;
-  max-height: 80rem;
+  max-height: 60rem;
   margin-bottom: 4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 span a {

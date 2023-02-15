@@ -1421,7 +1421,8 @@ footer ul {
     img{
         margin-top: 4rem;
         max-width: none;
-        max-height: 80rem;
+        max-height: 60rem;
+        object-fit: cover;
         // border-radius: 3.2rem;
         margin-bottom: 4rem;
         
@@ -2439,7 +2440,7 @@ footer ul {
             min-width: 60rem;
             max-width: 60rem;
             min-height: 80rem;
-            max-height: 80rem;
+            max-height: 100rem;
             object-fit: cover;
         }
        
@@ -2459,7 +2460,7 @@ footer ul {
             min-width: 60rem;
             max-width: 60rem;
             min-height: 80rem;
-            max-height: 80rem;
+            max-height: 100rem;
             object-fit: cover;
         }
     }
@@ -4602,9 +4603,10 @@ footer ul {
     img{
         margin-top: 4rem;
         max-width: none;
-        max-height: 80rem;
+        max-height: 60rem;
         // border-radius: 3.2rem;
         margin-bottom: 4rem;
+        object-fit: cover;
         
     }
 }
