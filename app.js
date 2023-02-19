@@ -19,6 +19,17 @@ tl.fromTo('.hero-image-section', { opacity: 0 }, { opacity: 1, stagger: .7, dura
 // gsap.from(".logo", { duration: 4, x: 300, opacity: 0, scale: 0.5 });
 
 
+//Pin the first page
+// const tlIntro = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".first-page",
+//     start: "0%",
+//     end: "100%",
+//     pin: true,
+//     pinSpacing: false,
+//   },
+// });
+
 
 // gsap.from(".text-transition", {
 //     x: 0,

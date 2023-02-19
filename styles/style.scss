@@ -52,7 +52,7 @@ h1 {
 
 h2{
     font-size: 8rem;
-    color: #0AF0FF;
+   
     letter-spacing: 0.1rem;
 }
 
@@ -1167,6 +1167,16 @@ footer ul {
     letter-spacing: 0.02em;
     color: #2C292A;
 }
+.design-title{
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 90%;
+    text-transform: uppercase;
+    // text-align: center;
+    // padding-left: 10rem;
+    color: #2C292A;
+}
 
 .about-me a {
     color: #f2f2f2;
@@ -2004,6 +2014,12 @@ footer ul {
         img{
             max-width: 80rem;
         margin-top: 6rem;
+        // transition: all 0.4s ease-in-out;
+        // &:hover{
+        //     transform:  scale(0.95, 0.95);
+        //     transition: all 0.4s ease-in-out;
+        //     border-radius: 1.6rem;
+        // }
         }
         .bio-section{
             padding: 0rem 10rem;
@@ -2122,6 +2138,7 @@ footer ul {
             &:hover{
                 transform:  scale(0.95, 0.95);
                 transition: all 0.4s ease-in-out;
+                // border-radius: 1.6rem;
             }
         }
        
@@ -2147,6 +2164,32 @@ footer ul {
             &:hover{
                 transform:  scale(0.95, 0.95);
                 transition: all 0.4s ease-in-out;
+                // border-radius: 1.6rem;
+            }
+        }
+    }
+    .adidas-work{
+        margin-top: 8rem;
+        padding: 0rem 8rem;
+        .adidas-name{
+            display: flex;
+            justify-content: space-between;
+        }
+        h3{
+            font-size: 1.6em;
+            font-family: 'Clash Display', sans-serif;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        img{
+            width: 100%;
+            object-fit: cover;
+            transition: all 0.4s ease-in-out;
+            margin-bottom: 1.6rem;
+            &:hover{
+                transform:  scale(0.95, 0.95);
+                transition: all 0.4s ease-in-out;
+                border-radius: 4rem;
             }
         }
     }
@@ -3071,6 +3114,7 @@ footer ul {
             }
         }
        }
+       
 
 
     }
@@ -3187,13 +3231,15 @@ footer ul {
 
 
        @media only screen and (max-width: 900px) {
-        
+       
         .work-new{
          background-color: #F0EDE2;
          // min-height: 100vh;
          color: #2C292A;
          margin-top: 15rem;
-         
+         .adidas-work{
+            padding: 0rem 4rem;
+         }
          h2{
              font-family: 'Clash Display', sans-serif;
              font-weight: 700;
@@ -3875,7 +3921,12 @@ footer ul {
          // min-height: 100vh;
          color: #2C292A;
          margin-top: 15rem;
-         
+         .adidas-work{
+            padding: 0rem 2.4rem;
+           img{
+            min-height: 40rem;
+           }
+         }
          h2{
              font-family: 'Clash Display', sans-serif;
              font-weight: 700;
@@ -4643,4 +4694,85 @@ span{
             font-size: 2.4rem;
         }
        } 
+    }
+
+    .redesign-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12rem;
+        .blog-picture1{
+            margin-top: 8rem;
+        }
+        .blog-picture2{
+            margin-top: 2rem;
+            margin-bottom: 8rem;
+            img{
+                min-height: 40rem;
+            }
+        }
+        .about-redesign{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                font-size: 1.6rem;
+                font-family: 'Space Grotesk', sans-serif;
+                line-height: 144%;
+                font-weight: 300;
+                margin-bottom: 4rem;
+                // margin-top: 2.4rem;
+                letter-spacing: 0.02em;
+                color: #2C292A;
+                margin-top: 4rem;
+            }
+            .blog-picture1{
+                margin-top: 4rem;
+                margin-bottom: 8rem;
+                img{
+                    max-height: 80rem;
+                }
+            }
+            .blog-picture2{
+                margin-top: 4rem;
+                margin-bottom: 8rem;
+                img{
+                    min-height: 40rem;
+                    max-width: 100rem;
+                }
+            }
+            .blog-picture3{
+                margin-top: 4rem;
+                margin-bottom: 8rem;
+                img{
+                    min-height: 40rem;
+                }
+            }
+            .design-title2{
+                font-family: 'Clash Display', sans-serif;
+                font-weight: 700;
+                font-size: 4rem;
+                line-height: 120%;
+                text-transform: uppercase;
+                color: #2C292A;
+                margin-top: 8rem;
+                margin-bottom: 15rem;
+                text-align: center;
+            }
+            a{
+                &:hover{
+                    color: #2b0aff;
+                }
+            }
+            ul{
+                color: #2C292A;
+                li{
+                    font-size: 1.4rem;
+                    letter-spacing: 0.02em;
+                    line-height: 144%;
+                    font-weight: 300;
+                }
+            }
+        }
     }

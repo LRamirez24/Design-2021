@@ -43,7 +43,6 @@ h1 {
 
 h2 {
   font-size: 8rem;
-  color: #0AF0FF;
   letter-spacing: 0.1rem;
 }
 
@@ -254,6 +253,15 @@ footer ul {
   margin-bottom: 4rem;
   margin-top: 8rem;
   letter-spacing: 0.02em;
+  color: #2C292A;
+}
+
+.design-title {
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 90%;
+  text-transform: uppercase;
   color: #2C292A;
 }
 
@@ -1188,6 +1196,44 @@ footer ul {
           transform: scale(0.95, 0.95);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+.work-new .adidas-work {
+  margin-top: 8rem;
+  padding: 0rem 8rem;
+}
+
+.work-new .adidas-work .adidas-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work-new .adidas-work h3 {
+  font-size: 1.6em;
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.work-new .adidas-work img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 1.6rem;
+}
+
+.work-new .adidas-work img:hover {
+  -webkit-transform: scale(0.95, 0.95);
+          transform: scale(0.95, 0.95);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border-radius: 4rem;
 }
 
 .works-info {
@@ -2191,6 +2237,9 @@ footer ul {
     color: #2C292A;
     margin-top: 15rem;
   }
+  .work-new .adidas-work {
+    padding: 0rem 4rem;
+  }
   .work-new h2 {
     font-family: 'Clash Display', sans-serif;
     font-weight: 700;
@@ -2844,6 +2893,12 @@ footer ul {
     background-color: #F0EDE2;
     color: #2C292A;
     margin-top: 15rem;
+  }
+  .work-new .adidas-work {
+    padding: 0rem 2.4rem;
+  }
+  .work-new .adidas-work img {
+    min-height: 40rem;
   }
   .work-new h2 {
     font-family: 'Clash Display', sans-serif;
@@ -3502,5 +3557,114 @@ span a {
   .new-blog-styles h4 {
     font-size: 2.4rem;
   }
+}
+
+.redesign-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 12rem;
+}
+
+.redesign-container .blog-picture1 {
+  margin-top: 8rem;
+}
+
+.redesign-container .blog-picture2 {
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+}
+
+.redesign-container .blog-picture2 img {
+  min-height: 40rem;
+}
+
+.redesign-container .about-redesign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesign-container .about-redesign p {
+  font-size: 1.6rem;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 144%;
+  font-weight: 300;
+  margin-bottom: 4rem;
+  letter-spacing: 0.02em;
+  color: #2C292A;
+  margin-top: 4rem;
+}
+
+.redesign-container .about-redesign .blog-picture1 {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.redesign-container .about-redesign .blog-picture1 img {
+  max-height: 80rem;
+}
+
+.redesign-container .about-redesign .blog-picture2 {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.redesign-container .about-redesign .blog-picture2 img {
+  min-height: 40rem;
+  max-width: 100rem;
+}
+
+.redesign-container .about-redesign .blog-picture3 {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.redesign-container .about-redesign .blog-picture3 img {
+  min-height: 40rem;
+}
+
+.redesign-container .about-redesign .design-title2 {
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #2C292A;
+  margin-top: 8rem;
+  margin-bottom: 15rem;
+  text-align: center;
+}
+
+.redesign-container .about-redesign a:hover {
+  color: #2b0aff;
+}
+
+.redesign-container .about-redesign ul {
+  color: #2C292A;
+}
+
+.redesign-container .about-redesign ul li {
+  font-size: 1.4rem;
+  letter-spacing: 0.02em;
+  line-height: 144%;
+  font-weight: 300;
 }
 /*# sourceMappingURL=style.css.map */
