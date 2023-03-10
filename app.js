@@ -47,27 +47,56 @@ tl.fromTo('.hero-image-section', { opacity: 0 }, { opacity: 1, stagger: .7, dura
 
 
 // Extra Animations for first section 
+// This is for the pinned video section version 1
+
+// const tltop = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".first-section",
+//     start: "30%",
+//     end: "100%",
+//     // scrub: true,
+//     pin: true,
+//     pinSpacing: false,
+//   //   markers: { startColor: "blue", endColor: "red" }
+//   },
+// });
 
 
 const tltop = gsap.timeline({
     scrollTrigger: {
       trigger: ".first-section",
-      start: "30%",
-      end: "100%",
-      // scrub: true,
-      pin: true,
-      pinSpacing: false,
+      start: "20%",
+      end: "80%",
+      scrub: true,
+      // pin: true,
+      // pinSpacing: false,
     //   markers: { startColor: "blue", endColor: "red" }
     },
   });
   
-  // tltop.fromTo(".img-01", { y: 0 }, { y: -100 });
-  // tltop.fromTo(".img-02", { y: 0 }, { y: -150 }, "<");
-  // tltop.fromTo(".img-03", { y: 0 }, { y: -80 }, "<");
+  tltop.fromTo(".img-01", { y: 0 }, { y: -80 });
+  tltop.fromTo(".img-02", { y: 0 }, { y: -140 }, "<");
+  tltop.fromTo(".img-03", { y: 0 }, { y: -80 }, "<");
 
   //   tltop.fromTo(".img-01", { y: 0 }, { y: -100 });
   // tltop.fromTo(".img-02", { y: 0 }, { y: -100 }, "<");
   // tltop.fromTo(".img-03", { y: 0 }, { y: -100 }, "<");
+
+
+
+
+//   //Highlight PAGE 2
+// This is for when the video is pinned to the top section
+
+// const tlH = gsap.timeline({
+//   scrollTrigger: {
+//     trigger: ".second-page",
+//   //   markers: { startColor: "blue", endColor: "blue" },
+//     scrub: true,
+//     start: "-40%",
+//     end: "40%",
+//   },
+// });
 
 
 
@@ -77,10 +106,13 @@ const tlH = gsap.timeline({
       trigger: ".second-page",
     //   markers: { startColor: "blue", endColor: "blue" },
       scrub: true,
-      start: "-40%",
-      end: "40%",
+      start: "-60%",
+      end: "0%",
     },
   });
+
+   tlH.fromTo(".smoke-video",  {opacity: 0},  {opacity: 1}, "<");
+   tlH.fromTo(".smoke-video",  {scale: 0.4},  {scale: 1}, "<");
 
   // video
 

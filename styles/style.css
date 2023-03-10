@@ -1131,7 +1131,6 @@ footer ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 15rem;
 }
 
 .smoke-video {
@@ -3723,6 +3722,10 @@ span a {
 }
 
 @media only screen and (max-width: 450px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   /* Second Page */
   .second-page {
     min-height: 125vh;
@@ -3738,7 +3741,7 @@ span a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 15rem;
+    margin-top: 0rem;
     overflow-x: hidden;
   }
   .smoke-video {
