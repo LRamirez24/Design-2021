@@ -51,14 +51,14 @@
         </nav>
     </header>
 
-    <div class="main-headline">
+    <div class="main-headline first-section">
         <p class="sub-headline stagger1">Let's build something amazing together</p>
-        <h1 class="stagger2">Luis Ramirez<br>
+        <h1 class="stagger2 img-01">Luis Ramirez<br>
             Web Developer<br>
             and Designer</h1>
             <div class="hero-image-section">
-                <img class="main-image" src="./images/luiscat-soft.webp" alt="luis-pic">
-                <div class="bio-section">
+                <img class="main-image img-02" src="./images/luiscat-soft.webp" alt="luis-pic">
+                <div class="bio-section img-03">
                     <hr class="line-1">
                     <p>
                         I am a UI/UX Designer, Front End Developer, and Brand Strategist based in Los Angeles who loves to design, code, & play video games.  In my projects I <span class="sub-headline-underline">combine business, marketing, communications, and design thinking</span> to develop meaningful, differentiated, and authentic brands for companies big and small, start-ups or stalwarts. I don't just come up with what’s trendy; I <span class="sub-headline-underline">craft the message your customers want to hear</span> and one that you can deliver on.
@@ -90,7 +90,19 @@
             
     </div>
 
-    <section class="work-new second-page">
+        <!-- 2nd PAGE -->
+        <section class="second-page" id="video">
+            <video
+              class="smoke-video" id="background_video"
+              src="./images/small-sizzle.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </section>
+
+
+    <section class="work-new">
 
         <div class="recent-work" id="work">
             <p>DESIGN PROJECTS AND FRONT END DEVELOPMENT</p>
@@ -238,12 +250,30 @@
         </div>
     </div>
     <div class="slider"></div>
+    
+    <script
+	src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+	integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+	crossorigin="anonymous"
+	referrerpolicy="no-referrer"
+  ></script>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+  <script
+	src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+	integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+	crossorigin="anonymous"
+	referrerpolicy="no-referrer"
+  ></script>
+
+  
+
     <script src="/app.js"></script>
 
    

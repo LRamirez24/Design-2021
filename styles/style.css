@@ -997,6 +997,7 @@ footer ul {
 
 .main-headline {
   background-color: #F0EDE2;
+  min-height: 100vh;
   margin-top: 8rem;
   color: #2C292A;
 }
@@ -1117,6 +1118,32 @@ footer ul {
 
 .main-headline .hero-image-section .test .main-socials .last-icon {
   margin-right: 0rem;
+}
+
+/* Second Page */
+.second-page {
+  min-height: 102vh;
+  color: rgba(255, 255, 255, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.smoke-video {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
 }
 
 .work-new {
@@ -3666,5 +3693,35 @@ span a {
   letter-spacing: 0.02em;
   line-height: 144%;
   font-weight: 300;
+}
+
+@media only screen and (max-width: 700px) {
+  /* Second Page */
+  .second-page {
+    min-height: 102vh;
+    color: rgba(255, 255, 255, 0.6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .smoke-video {
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    z-index: 1;
+  }
+  .main-headline {
+    margin-top: 1.6rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

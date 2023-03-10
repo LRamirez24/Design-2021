@@ -1,4 +1,5 @@
 const tl = gsap.timeline({ defaults: { ease: 'power1.in' } });
+
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -43,6 +44,57 @@ tl.fromTo('.hero-image-section', { opacity: 0 }, { opacity: 1, stagger: .7, dura
 //         end: "top 100px",
 //     }
 // })
+
+
+// Extra Animations for first section 
+
+
+const tltop = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".first-section",
+      start: "20%",
+      end: "100%",
+      scrub: true,
+      pin: true,
+      pinSpacing: false,
+    //   markers: { startColor: "blue", endColor: "red" }
+    },
+  });
+  
+  // tltop.fromTo(".img-01", { y: 0 }, { y: -100 });
+  // tltop.fromTo(".img-02", { y: 0 }, { y: -150 }, "<");
+  // tltop.fromTo(".img-03", { y: 0 }, { y: -80 }, "<");
+
+  //   tltop.fromTo(".img-01", { y: 0 }, { y: -100 });
+  // tltop.fromTo(".img-02", { y: 0 }, { y: -100 }, "<");
+  // tltop.fromTo(".img-03", { y: 0 }, { y: -100 }, "<");
+
+
+
+  //Highlight PAGE 2
+const tlH = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".second-page",
+    //   markers: { startColor: "blue", endColor: "blue" },
+      scrub: true,
+      start: "-40%",
+      end: "40%",
+    },
+  });
+
+  // video
+
+  const video = document.querySelector("#background_video")
+ScrollTrigger.create({
+    start: "0%",
+  end: "60%",
+  trigger: "#video",
+  scrub: true,
+  onEnter: () => video.play(),
+  onLeave: () => video.pause(),
+  onEnterBack: () => video.play(),
+    // markers: { startColor: "blue", endColor: "blue" }
+});
 
 
 gsap.from(".recent-work", {
