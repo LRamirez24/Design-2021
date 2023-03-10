@@ -1131,6 +1131,7 @@ footer ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 15rem;
 }
 
 .smoke-video {
@@ -3737,7 +3738,7 @@ span a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 4rem;
+    margin-top: 15rem;
     overflow-x: hidden;
   }
   .smoke-video {
