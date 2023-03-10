@@ -978,10 +978,10 @@ footer ul {
 /*Media query for small and mid sized phones section  */
 
 @media only screen and (max-width: 425px) {
-    html,
-    body {
-    overflow-x: hidden;
-    }
+    // html,
+    // body {
+    // overflow-x: hidden;
+    // }
 
     .intro-text2 h1 {
         color: #f2f2f2;
