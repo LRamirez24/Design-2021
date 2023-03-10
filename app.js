@@ -52,9 +52,9 @@ tl.fromTo('.hero-image-section', { opacity: 0 }, { opacity: 1, stagger: .7, dura
 const tltop = gsap.timeline({
     scrollTrigger: {
       trigger: ".first-section",
-      start: "20%",
+      start: "30%",
       end: "100%",
-      scrub: true,
+      // scrub: true,
       pin: true,
       pinSpacing: false,
     //   markers: { startColor: "blue", endColor: "red" }
