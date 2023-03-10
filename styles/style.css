@@ -196,6 +196,10 @@ footer ul {
 
 /*Media query for small and mid sized phones section  */
 @media only screen and (max-width: 425px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .intro-text2 h1 {
     color: #f2f2f2;
     font-size: 4rem;
@@ -3694,7 +3698,7 @@ span a {
 @media only screen and (max-width: 700px) {
   /* Second Page */
   .second-page {
-    min-height: 102vh;
+    min-height: 125vh;
     color: rgba(255, 255, 255, 0.6);
     display: -webkit-box;
     display: -ms-flexbox;

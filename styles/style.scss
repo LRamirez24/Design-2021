@@ -978,10 +978,10 @@ footer ul {
 /*Media query for small and mid sized phones section  */
 
 @media only screen and (max-width: 425px) {
-    // html,
-    // body {
-    // overflow-x: hidden;
-    // }
+    html,
+    body {
+    overflow-x: hidden;
+    }
 
     .intro-text2 h1 {
         color: #f2f2f2;
@@ -4814,7 +4814,7 @@ span{
    
        /* Second Page */
 .second-page {
-    min-height: 102vh;
+    min-height: 125vh;
     color: rgba(255, 255, 255, 0.6);
     display: flex;
     flex-direction: column;
