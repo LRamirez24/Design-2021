@@ -4839,6 +4839,11 @@ span{
 
         
   @media only screen and (max-width: 450px) {
+
+     html,
+    body {
+    overflow-x: hidden;
+    }
    
     /* Second Page */
 .second-page {
@@ -4849,6 +4854,7 @@ span{
  position: relative;
  justify-content: center;
  margin-top: 4rem;
+ overflow-x: hidden;
  
 }
 
@@ -4858,6 +4864,7 @@ span{
  width: 100vw;
  object-fit: cover;
  z-index: 1;
+ overflow-x: hidden;
 }
 
 .main-headline{

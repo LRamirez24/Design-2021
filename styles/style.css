@@ -3722,6 +3722,10 @@ span a {
 }
 
 @media only screen and (max-width: 450px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   /* Second Page */
   .second-page {
     min-height: 125vh;
@@ -3738,6 +3742,7 @@ span a {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 4rem;
+    overflow-x: hidden;
   }
   .smoke-video {
     position: absolute;
@@ -3746,6 +3751,7 @@ span a {
     -o-object-fit: cover;
        object-fit: cover;
     z-index: 1;
+    overflow-x: hidden;
   }
   .main-headline {
     margin-top: 1.6rem;
