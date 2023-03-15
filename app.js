@@ -75,7 +75,7 @@ const tltop = gsap.timeline({
   });
   
   tltop.fromTo(".img-01", { y: 0 }, { y: -80 });
-  tltop.fromTo(".img-02", { y: 0 }, { y: -140 }, "<");
+  tltop.fromTo(".img-02", { y: 0 }, { y: -100 }, "<");
   tltop.fromTo(".img-03", { y: 0 }, { y: -80 }, "<");
 
   //   tltop.fromTo(".img-01", { y: 0 }, { y: -100 });
@@ -105,14 +105,14 @@ const tlH = gsap.timeline({
     scrollTrigger: {
       trigger: ".second-page",
     //   markers: { startColor: "blue", endColor: "blue" },
-      scrub: true,
-      start: "-60%",
+      scrub: 1,
+      start: "-50%",
       end: "0%",
     },
   });
 
-   tlH.fromTo(".smoke-video",  {opacity: 0},  {opacity: 1}, "<");
-   tlH.fromTo(".smoke-video",  {scale: 0.4},  {scale: 1}, "<");
+  //  tlH.fromTo(".smoke-video",  {opacity: 0},  {opacity: 1}, "<");
+   tlH.fromTo(".smoke-video",  {scale: 0.5},  {scale: 1, duration: 1.4 }, "<");
 
   // video
 
