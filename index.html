@@ -286,6 +286,34 @@
 
     <script src="/app.js"></script>
 
+       
+    <script src="
+    https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
+    "></script>
+    
+    
+    <script>
+    
+    var cookieName = "preloader";
+    
+    if (typeof Cookies.get(cookieName) !== 'undefined') {
+    
+    $( '.intro-video, .slider' ).remove();
+    console.log('hello');
+    
+    }
+    
+    $('.intro-text2, .slider').on('onload', function() {
+    
+    Cookies.set(cookieName, 'value', { expires: 1 });
+    console.log('hello');
+    
+    })
+    
+    
+    
+    </script>
+
    
 
 
